@@ -1,0 +1,6 @@
+Data and figures produced by the author (data/pumpfun-16d/, data/arc-17d/, data/bots-daily.csv, bots/, results/, figures/)
+are released under the Creative Commons Attribution 4.0 International licence (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+Please cite: J.-B. Durand, "I Ran Bots Inside Token Factories. Here Is What They Say About PUMP", Franklin Crypto Research Competition, UBC 2026.
+
+Third-party API responses saved in data/raw/ (DefiLlama, CoinGecko, Binance, Hyperliquid, Solscan) remain the property of their
+providers and are redistributed here only so that the paper's numbers can be verified against the exact inputs used.
