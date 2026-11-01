@@ -1,0 +1,214 @@
+{
+ "fenetre": {
+  "debut": "2026-10-05",
+  "fin": "2026-10-20",
+  "jours": 16,
+  "joursAvecRevenu": 16
+ },
+ "actifsMoyJour": 135776,
+ "nouvellesMoyJour": 63580,
+ "actifs1reMoitie": 157882,
+ "actifs2deMoitie": 113670,
+ "nouvelles1reMoitie": 86719,
+ "nouvelles2deMoitie": 43334,
+ "penteHebdoActifs": -0.2701452076144061,
+ "penteHebdoNouvelles": -0.514856933433425,
+ "semaine1": {
+  "jours": "2026-10-06→2026-10-12",
+  "actifs": 155300,
+  "jetons": 29319,
+  "revenu": 2375539,
+  "sol": 114
+ },
+ "semaine2": {
+  "jours": "2026-10-13→2026-10-19",
+  "actifs": 114481,
+  "jetons": 19646,
+  "revenu": 2021151,
+  "sol": 105
+ },
+ "nouvelles7": {
+  "premier": [
+   "2026-10-13",
+   72409
+  ],
+  "dernier": [
+   "2026-10-20",
+   57535
+  ]
+ },
+ "arpuJourMoy": 17.179667576984684,
+ "arpuJourMed": 16.373173587980702,
+ "fraisParActifMoy": 47.08448213362614,
+ "revenuMoyJour": 2230227.75,
+ "parJour": [
+  {
+   "jour": "2026-10-05",
+   "actives": 175959,
+   "nouvelles": 175959,
+   "revenu": 2835245.0,
+   "frais": 7676163.0,
+   "arpuJour": 16.11310021084457,
+   "fraisParActif": 43.62472507800113
+  },
+  {
+   "jour": "2026-10-06",
+   "actives": 173473,
+   "nouvelles": 118629,
+   "revenu": 2743636.0,
+   "frais": 7579253.0,
+   "arpuJour": 15.815925244850783,
+   "fraisParActif": 43.691254546817085
+  },
+  {
+   "jour": "2026-10-07",
+   "actives": 182903,
+   "nouvelles": 111716,
+   "revenu": 2562737.0,
+   "frais": 7177848.0,
+   "arpuJour": 14.011454158761747,
+   "fraisParActif": 39.24401458696686
+  },
+  {
+   "jour": "2026-10-08",
+   "actives": 167671,
+   "nouvelles": 98780,
+   "revenu": 2409654.0,
+   "frais": 6448412.0,
+   "arpuJour": 14.371322411150407,
+   "fraisParActif": 38.45871975475783
+  },
+  {
+   "jour": "2026-10-09",
+   "actives": 176666,
+   "nouvelles": 103285,
+   "revenu": 2381183.0,
+   "frais": 6788945.0,
+   "arpuJour": 13.478445201680007,
+   "fraisParActif": 38.42813557787011
+  },
+  {
+   "jour": "2026-10-10",
+   "actives": 106895,
+   "nouvelles": 42810,
+   "revenu": 2129640.0,
+   "frais": 6056306.0,
+   "arpuJour": 19.922727910566444,
+   "fraisParActif": 56.65658824079704
+  },
+  {
+   "jour": "2026-10-11",
+   "actives": 104792,
+   "nouvelles": 33363,
+   "revenu": 2109996.0,
+   "frais": 5594643.0,
+   "arpuJour": 20.135086647835713,
+   "fraisParActif": 53.388073517062374
+  },
+  {
+   "jour": "2026-10-12",
+   "actives": 174699,
+   "nouvelles": 98451,
+   "revenu": 2291928.0,
+   "frais": 6290289.0,
+   "arpuJour": 13.119296618755689,
+   "fraisParActif": 36.00643964762248
+  },
+  {
+   "jour": "2026-10-13",
+   "actives": 138335,
+   "nouvelles": 71322,
+   "revenu": 2170556.0,
+   "frais": 5826012.0,
+   "arpuJour": 15.690577221961181,
+   "fraisParActif": 42.11524198503633
+  },
+  {
+   "jour": "2026-10-14",
+   "actives": 153530,
+   "nouvelles": 79360,
+   "revenu": 2039670.0,
+   "frais": 5649592.0,
+   "arpuJour": 13.285155995570898,
+   "fraisParActif": 36.79796782387807
+  },
+  {
+   "jour": "2026-10-15",
+   "actives": 125046,
+   "nouvelles": 44050,
+   "revenu": 2079921.0,
+   "frais": 5736675.0,
+   "arpuJour": 16.633246965116836,
+   "fraisParActif": 45.8765174415815
+  },
+  {
+   "jour": "2026-10-16",
+   "actives": 118034,
+   "nouvelles": 34806,
+   "revenu": 2117120.0,
+   "frais": 5786282.0,
+   "arpuJour": 17.93652676347493,
+   "fraisParActif": 49.02216310554586
+  },
+  {
+   "jour": "2026-10-17",
+   "actives": 80271,
+   "nouvelles": 24427,
+   "revenu": 1699165.0,
+   "frais": 4617333.0,
+   "arpuJour": 21.16785638649076,
+   "fraisParActif": 57.521807377508686
+  },
+  {
+   "jour": "2026-10-18",
+   "actives": 78209,
+   "nouvelles": 21414,
+   "revenu": 1865224.0,
+   "frais": 5098671.0,
+   "arpuJour": 23.84922451380276,
+   "fraisParActif": 65.19289340101523
+  },
+  {
+   "jour": "2026-10-19",
+   "actives": 107945,
+   "nouvelles": 34143,
+   "revenu": 2176401.0,
+   "frais": 5769234.0,
+   "arpuJour": 20.162128861920422,
+   "fraisParActif": 53.44605122979295
+  },
+  {
+   "jour": "2026-10-20",
+   "actives": 107992,
+   "nouvelles": 37147,
+   "revenu": 2071568.0,
+   "frais": 5818730.0,
+   "arpuJour": 19.182606118971776,
+   "fraisParActif": 53.881120823764725
+  }
+ ],
+ "valo_aujourdhui": {
+  "actifsParJour": 135776,
+  "revenuAnnuel": 851394089,
+  "mc": 2231427838,
+  "prix": 0.004830845026655041
+ },
+ "valo_niveauSemaine2": {
+  "actifsParJour": 114481,
+  "revenuAnnuel": 717862116,
+  "mc": 1881452468,
+  "prix": 0.004073179129569997
+ },
+ "valo_tendance6mois": {
+  "actifsParJour": 67888,
+  "revenuAnnuel": 425697044,
+  "mc": 1115713919,
+  "prix": 0.0024154225133275206
+ },
+ "valo_moitieDesActifs": {
+  "actifsParJour": 67888,
+  "revenuAnnuel": 425697044,
+  "mc": 1115713919,
+  "prix": 0.0024154225133275206
+ }
+}
