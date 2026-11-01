@@ -1,0 +1,381 @@
+
+═══ COURBES SOLANA · 2026-10-15 00:00 → 2026-10-16 00:00 UTC · coupe 2026-10-15 11:52 · slot 0.2163 s (3 s = 14 slots) · SOL 120 $
+  couverture : 1440/1440 minutes · sans source 3 · une source 1 · perdus disque 0 · illisibles 0
+  canari pumpfun : 52788/53022 signatures reçues (+99.6 %) sur 144 contrôles, pire +35.9 %, 0 contrôle(s) en erreur
+  canari launchlab : 25268/38138 signatures reçues (+66.3 %) sur 144 contrôles, pire +0.0 %, 0 contrôle(s) en erreur
+  lecture : 25 fichiers, 4123779 lignes, 4046417 transactions, 75 doublons écartés, 9489 transactions multi-comptes (bundles), 185411 comptes ; plus grosses mains 983, 979, 967, 823, 804
+  coût d'exécution supposé : 2 × (5 000 + 44500) lamports = 0.000099 SOL par A/R (0.0119 $)
+  VÉRIF pump.fun/SOL : 1699379 échanges, 1669584 chaînés (état avant = après du précédent) ; formule exacte +97.4 % (écart relatif max 2.50e-1) ; sens achat↑ 906279/906279 vente↓ 763264/763305 ; k qui baisse 0
+  formule par famille — pf|SOL : 1682137 paires consécutives, +99.3 % chaînées, formule exacte sur +97.4 % des chaînées
+  formule par famille — pf|SOL|mayhem : 1208756 paires consécutives, +39.4 % chaînées, formule exacte sur +98.5 % des chaînées
+  formule par famille — pf|autres cotations : 344920 paires consécutives, +97.5 % chaînées, formule exacte sur +79.4 % des chaînées
+  frais protocole (bps : échanges) [[95,1488858]] · créateur [[30,1488338],[0,520]]
+  VÉRIF LaunchLab : 33353 échanges, chaînage 32089 ok / 568 ko ; formule +100.0 % (écart max 4.44e-8) ; frais achat 18567, vente 14786 ; k qui baisse 0 ; frais bps [[125,11824],[150,1505],[575,660],[100,613],[25,548],[105,378]]
+
+── pf|SOL · 1re moitié : 8228 jetons (692.9/h) · second acheteur +56.9 % (strict +51.1 % ; strict et achats ≥ 0,01 SOL +47.4 %, ≥ 0,05 SOL +44.0 %) · gradués 287 · échanges/jeton méd. 10 · vente de tiers +72.4 %
+   jouables/h par E : {"10":350.6,"20":366.7,"30":376.7,"45":385,"60":389.8} · main du créateur : 7281 jetons, payé 25532.9 SOL, reçu 16758.1 SOL (-34.4 %)
+   jetons sans aucun échange +8.7 % · TÉMOIN POSITIF : 287 gradués, prix ×14.70 de la naissance à la fin de courbe (attendu ≈ ×14,7), vq final méd. 115.01 SOL
+   foule, jetons NON gradués
+   âge        positions  payé SOL   strict  valorisé  médiane  gagnants  jamais vendu
+   0-5 s         45985     37463   -5.1 %    +1.9 %   -3.7 %  +35.3 %     +4.2 %
+   5-20 s        33803     22411  -13.9 %    -9.4 %   -8.5 %  +30.3 %     +3.8 %
+   20-60 s       37556     21581  -12.8 %   -10.1 %  -11.3 %  +27.8 %     +4.4 %
+   60-300 s      55270     32497  -14.4 %   -11.8 %  -14.5 %  +26.2 %     +5.8 %
+   300-∞ s       45411     28056  -18.9 %   -11.5 %  -16.7 %  +22.4 %    +11.7 %
+   foule, jetons GRADUÉS (ventes après graduation invisibles : strict pessimiste, valorisé optimiste)
+   âge        positions  payé SOL   strict  valorisé  médiane  gagnants  jamais vendu
+   0-5 s          2860      7604  -47.4 %  +209.0 %   +4.6 %  +55.4 %    +21.6 %
+   5-20 s         3161      3511  -10.5 %   +79.5 %   -0.8 %  +49.2 %    +20.8 %
+   20-60 s        4856      4457  -31.8 %   +67.3 %  -14.3 %  +38.5 %    +34.8 %
+   60-300 s      13558     10188  -30.4 %   +56.6 %  -22.3 %  +34.8 %    +37.7 %
+   300-∞ s       20675     13840  -42.8 %   +39.7 %  -54.9 %  +25.2 %    +46.6 %
+   TIERS au timing (refermé, ≤ 0,1 SOL)     n  moyenne  robuste  médiane  gagnants  mise méd.
+   E=10 s H= 60 s                  6142   -5.8 %  -12.0 %   -7.7 %  +31.5 %   0.0411 SOL  IC95 moyenne [-6.8 % ; -4.8 %] · non refermés car gradués 321 · sans poussière (≥ 0,005 SOL) n=5574 rob -12.1 % méd -7.8 %
+   E=10 s H=120 s                  4315   -6.3 %  -13.1 %   -8.8 %  +31.2 %   0.0438 SOL  IC95 moyenne [-7.6 % ; -4.9 %] · non refermés car gradués 321 · sans poussière (≥ 0,005 SOL) n=3911 rob -13.4 % méd -9.3 %
+   E=10 s H=180 s                  2982   -6.4 %  -14.1 %   -9.6 %  +30.2 %   0.0485 SOL  IC95 moyenne [-8.1 % ; -4.6 %] · non refermés car gradués 321 · sans poussière (≥ 0,005 SOL) n=2727 rob -14.4 % méd -10.3 %
+   E=10 s H=240 s                  2065   -6.3 %  -14.2 %   -9.7 %  +29.5 %   0.0495 SOL  IC95 moyenne [-8.5 % ; -4.0 %] · non refermés car gradués 321 · sans poussière (≥ 0,005 SOL) n=1888 rob -14.1 % méd -10.1 %
+   E=30 s H=300 s                  1283   -7.2 %  -15.2 %  -14.1 %  +33.9 %   0.0456 SOL  IC95 moyenne [-10.0 % ; -4.5 %] · non refermés car gradués 352 · sans poussière (≥ 0,005 SOL) n=1211 rob -14.8 % méd -14.1 %
+   E=10 s H=300 s                  1591   -6.5 %  -15.2 %   -9.3 %  +29.2 %   0.0485 SOL  IC95 moyenne [-9.1 % ; -3.8 %] · non refermés car gradués 321 · sans poussière (≥ 0,005 SOL) n=1442 rob -15.3 % méd -10.4 %
+   REJEU courbe exacte          n    /h  gradués  marginal(rob/méd)   net 0,005 / 0,01 / 0,05 / 0,1 SOL (robuste)   méd 0,01  gagn.  flux après (moy/méd SOL, >0)
+   E=60 s H= 60 s       4629 389.8      12  -7.0 %/-2.5 %   -9.0 % / -8.0 % / -7.2 % / -7.1 %   -3.5 % +13.0 %  -0.369/0.000 +21.0 %  moyenne 0,01 -5.1 % IC95 [-5.7 % ; -4.3 %]
+   E=45 s H= 60 s       4572   385      13  -7.7 %/-2.5 %   -9.7 % / -8.7 % / -7.9 % / -7.8 %   -3.5 % +14.6 %  -0.414/0.000 +23.4 %  moyenne 0,01 -5.4 % IC95 [-6.1 % ; -4.6 %]
+   E=30 s H= 60 s       4473 376.7      15  -9.1 %/-3.1 %   -11.1 % / -10.1 % / -9.3 % / -9.2 %   -4.1 % +15.8 %  -0.529/-0.037 +25.2 %  moyenne 0,01 -6.1 % IC95 [-6.9 % ; -5.3 %]
+   E=60 s H=120 s       4629 389.8      20  -9.1 %/-2.8 %   -11.1 % / -10.1 % / -9.3 % / -9.2 %   -3.8 % +11.7 %  -0.618/-0.022 +19.1 %  moyenne 0,01 -6.2 % IC95 [-7.0 % ; -5.4 %]
+   E=45 s H=120 s       4572   385      21  -10.0 %/-3.3 %   -11.9 % / -11.0 % / -10.2 % / -10.1 %   -4.3 % +13.1 %  -0.679/-0.050 +20.3 %  moyenne 0,01 -6.5 % IC95 [-7.4 % ; -5.6 %]
+   E=20 s H= 60 s       4355 366.7      15  -10.2 %/-4.0 %   -12.2 % / -11.2 % / -10.4 % / -10.3 %   -5.0 % +17.8 %  -0.571/-0.086 +27.8 %  moyenne 0,01 -6.2 % IC95 [-7.1 % ; -5.1 %]
+   vente créateur ≤ 3 s après un petit achat extérieur : +1.9 % (n=59850) · témoin mêmes jetons, même âge, sans achat : +1.1 % (n=31506) · témoin d'activité (après une vente de tiers) : +1.5 % (n=28613)
+   vente créateur + slot de création ≤ 3 s après un petit achat extérieur : +9.6 % (n=59704) · témoin mêmes jetons, même âge, sans achat : +2.7 % (n=31467) · témoin d'activité (après une vente de tiers) : +5.6 % (n=26123)
+
+── pf|SOL · 2de moitié : 10923 jetons (919.8/h) · second acheteur +52.8 % (strict +46.8 % ; strict et achats ≥ 0,01 SOL +44.2 %, ≥ 0,05 SOL +41.1 %) · gradués 191 · échanges/jeton méd. 8 · vente de tiers +66.1 %
+   jouables/h par E : {"10":448,"20":461.8,"30":470.8,"45":478.7,"60":483.1} · main du créateur : 9334 jetons, payé 24311.6 SOL, reçu 19400.5 SOL (-20.2 %)
+   jetons sans aucun échange +10.9 % · TÉMOIN POSITIF : 191 gradués, prix ×14.70 de la naissance à la fin de courbe (attendu ≈ ×14,7), vq final méd. 115.01 SOL
+   foule, jetons NON gradués
+   âge        positions  payé SOL   strict  valorisé  médiane  gagnants  jamais vendu
+   0-5 s         65829     56515  -13.3 %    +5.2 %   -7.6 %  +30.9 %    +13.7 %
+   5-20 s        53210     29543  -22.7 %   -10.2 %  -17.9 %  +24.7 %    +18.4 %
+   20-60 s       51989     22376  -26.5 %   -13.2 %  -31.7 %  +20.9 %    +22.6 %
+   60-300 s      65728     29333  -29.9 %   -15.7 %  -40.0 %  +18.3 %    +26.1 %
+   300-∞ s       45301     26147  -30.1 %   -11.4 %  -26.9 %  +18.5 %    +26.0 %
+   foule, jetons GRADUÉS (ventes après graduation invisibles : strict pessimiste, valorisé optimiste)
+   âge        positions  payé SOL   strict  valorisé  médiane  gagnants  jamais vendu
+   0-5 s          2115      4931  -47.1 %  +223.5 %   -5.7 %  +42.7 %    +29.1 %
+   5-20 s         3003      2490  -19.5 %  +112.4 %  -30.4 %  +34.1 %    +35.2 %
+   20-60 s        5172      2881  -37.6 %  +103.8 % -100.0 %  +23.9 %    +52.5 %
+   60-300 s      13631      6646  -50.4 %   +63.5 % -100.0 %  +17.9 %    +64.3 %
+   300-∞ s        9821      6585  -47.2 %   +46.2 % -100.0 %  +20.4 %    +54.1 %
+   TIERS au timing (refermé, ≤ 0,1 SOL)     n  moyenne  robuste  médiane  gagnants  mise méd.
+   E=10 s H= 60 s                  6435   -6.7 %  -13.6 %  -10.7 %  +32.8 %   0.0432 SOL  IC95 moyenne [-7.8 % ; -5.5 %] · non refermés car gradués 787 · sans poussière (≥ 0,005 SOL) n=5999 rob -13.9 % méd -10.8 %
+   E=10 s H=180 s                  2722   -3.9 %  -13.8 %  -11.5 %  +29.0 %   0.0460 SOL  IC95 moyenne [-6.0 % ; -1.7 %] · non refermés car gradués 787 · sans poussière (≥ 0,005 SOL) n=2467 rob -13.6 % méd -12.0 %
+   E=10 s H=240 s                  2018   -3.5 %  -14.4 %  -11.7 %  +27.3 %   0.0458 SOL  IC95 moyenne [-6.1 % ; -0.7 %] · non refermés car gradués 787 · sans poussière (≥ 0,005 SOL) n=1813 rob -14.3 % méd -12.1 %
+   E=10 s H=120 s                  4161   -5.9 %  -14.8 %  -11.8 %  +29.8 %   0.0445 SOL  IC95 moyenne [-7.6 % ; -4.2 %] · non refermés car gradués 787 · sans poussière (≥ 0,005 SOL) n=3882 rob -15.1 % méd -12.2 %
+   E=10 s H=300 s                  1570   -2.6 %  -15.0 %  -13.9 %  +28.2 %   0.0451 SOL  IC95 moyenne [-6.3 % ; +0.8 %] · non refermés car gradués 787 · sans poussière (≥ 0,005 SOL) n=1415 rob -14.4 % méd -13.9 %
+   E=20 s H=180 s                  2184   -8.5 %  -19.7 %  -18.5 %  +28.6 %   0.0435 SOL  IC95 moyenne [-11.0 % ; -6.0 %] · non refermés car gradués 840 · sans poussière (≥ 0,005 SOL) n=2040 rob -19.3 % méd -18.6 %
+   REJEU courbe exacte          n    /h  gradués  marginal(rob/méd)   net 0,005 / 0,01 / 0,05 / 0,1 SOL (robuste)   méd 0,01  gagn.  flux après (moy/méd SOL, >0)
+   E=60 s H= 60 s       5737 483.1       5  -6.8 %/-2.5 %   -8.7 % / -7.7 % / -7.0 % / -6.9 %   -3.5 % +9.8 %  -0.359/0.000 +15.8 %  moyenne 0,01 -5.0 % IC95 [-5.5 % ; -4.4 %]
+   E=45 s H= 60 s       5684 478.7       7  -7.1 %/-2.5 %   -9.1 % / -8.1 % / -7.3 % / -7.2 %   -3.5 % +11.6 %  -0.333/0.000 +18.6 %  moyenne 0,01 -4.9 % IC95 [-5.5 % ; -4.3 %]
+   E=30 s H= 60 s       5591 470.8       3  -8.4 %/-2.5 %   -10.4 % / -9.4 % / -8.6 % / -8.5 %   -3.5 % +13.1 %  -0.522/0.000 +20.5 %  moyenne 0,01 -5.6 % IC95 [-6.2 % ; -4.8 %]
+   E=60 s H=120 s       5737 483.1      13  -9.0 %/-2.5 %   -11.0 % / -10.0 % / -9.2 % / -9.1 %   -3.5 % +10.0 %  -0.623/0.000 +15.7 %  moyenne 0,01 -6.2 % IC95 [-6.9 % ; -5.6 %]
+   E=45 s H=120 s       5684 478.7      15  -9.5 %/-2.5 %   -11.5 % / -10.5 % / -9.7 % / -9.6 %   -3.5 % +10.7 %  -0.621/0.000 +17.8 %  moyenne 0,01 -6.3 % IC95 [-7.0 % ; -5.6 %]
+   E=20 s H= 60 s       5484 461.8       4  -9.6 %/-2.5 %   -11.6 % / -10.6 % / -9.8 % / -9.7 %   -3.5 % +14.3 %  -0.603/0.000 +23.0 %  moyenne 0,01 -6.1 % IC95 [-6.9 % ; -5.3 %]
+   vente créateur ≤ 3 s après un petit achat extérieur : +4.5 % (n=81492) · témoin mêmes jetons, même âge, sans achat : +0.7 % (n=35308) · témoin d'activité (après une vente de tiers) : +1.7 % (n=23031)
+   vente créateur + slot de création ≤ 3 s après un petit achat extérieur : +20.2 % (n=81386) · témoin mêmes jetons, même âge, sans achat : +1.8 % (n=35257) · témoin d'activité (après une vente de tiers) : +6.1 % (n=21210)
+
+── pf|SOL · tout : 19151 jetons (806.4/h) · second acheteur +54.6 % (strict +48.6 % ; strict et achats ≥ 0,01 SOL +45.6 %, ≥ 0,05 SOL +42.3 %) · gradués 478 · échanges/jeton méd. 9 · vente de tiers +68.8 %
+   jouables/h par E : {"10":399.3,"20":414.3,"30":423.7,"45":431.8,"60":436.5} · main du créateur : 16615 jetons, payé 49844.6 SOL, reçu 36158.6 SOL (-27.5 %)
+   jetons sans aucun échange +10.0 % · TÉMOIN POSITIF : 478 gradués, prix ×14.70 de la naissance à la fin de courbe (attendu ≈ ×14,7), vq final méd. 115.01 SOL
+   foule, jetons NON gradués
+   âge        positions  payé SOL   strict  valorisé  médiane  gagnants  jamais vendu
+   0-5 s        111814     93979  -10.0 %    +3.9 %   -5.7 %  +32.7 %     +9.8 %
+   5-20 s        87013     51954  -18.9 %    -9.9 %  -13.1 %  +26.9 %    +12.7 %
+   20-60 s       89545     43956  -19.8 %   -11.7 %  -19.7 %  +23.8 %    +15.0 %
+   60-300 s     120998     61830  -21.7 %   -13.6 %  -23.8 %  +21.9 %    +16.8 %
+   300-∞ s       90712     54202  -24.3 %   -11.5 %  -21.3 %  +20.5 %    +18.8 %
+   foule, jetons GRADUÉS (ventes après graduation invisibles : strict pessimiste, valorisé optimiste)
+   âge        positions  payé SOL   strict  valorisé  médiane  gagnants  jamais vendu
+   0-5 s          4975     12535  -47.3 %  +214.7 %   +0.0 %  +50.0 %    +24.8 %
+   5-20 s         6164      6001  -14.3 %   +93.2 %   -8.9 %  +41.8 %    +27.8 %
+   20-60 s       10028      7338  -34.1 %   +81.7 %  -44.3 %  +31.0 %    +43.9 %
+   60-300 s      27189     16834  -38.3 %   +59.3 % -100.0 %  +26.3 %    +51.1 %
+   300-∞ s       30496     20425  -44.2 %   +41.8 %  -74.7 %  +23.7 %    +49.0 %
+   TIERS au timing (refermé, ≤ 0,1 SOL)     n  moyenne  robuste  médiane  gagnants  mise méd.
+   E=10 s H= 60 s                 12577   -6.3 %  -12.9 %   -8.9 %  +32.2 %   0.0430 SOL  IC95 moyenne [-6.9 % ; -5.4 %] · non refermés car gradués 1108 · sans poussière (≥ 0,005 SOL) n=11573 rob -13.1 % méd -9.1 %
+   E=10 s H=180 s                  5704   -5.2 %  -13.9 %  -10.6 %  +29.6 %   0.0475 SOL  IC95 moyenne [-6.6 % ; -3.7 %] · non refermés car gradués 1108 · sans poussière (≥ 0,005 SOL) n=5194 rob -14.1 % méd -11.2 %
+   E=10 s H=120 s                  8476   -6.1 %  -14.0 %  -10.1 %  +30.5 %   0.0441 SOL  IC95 moyenne [-7.1 % ; -5.0 %] · non refermés car gradués 1108 · sans poussière (≥ 0,005 SOL) n=7793 rob -14.3 % méd -10.8 %
+   E=10 s H=240 s                  4083   -4.9 %  -14.4 %  -10.8 %  +28.4 %   0.0491 SOL  IC95 moyenne [-6.7 % ; -3.0 %] · non refermés car gradués 1108 · sans poussière (≥ 0,005 SOL) n=3701 rob -14.3 % méd -11.2 %
+   E=10 s H=300 s                  3161   -4.6 %  -15.2 %  -11.4 %  +28.7 %   0.0472 SOL  IC95 moyenne [-6.7 % ; -2.5 %] · non refermés car gradués 1108 · sans poussière (≥ 0,005 SOL) n=2857 rob -15.0 % méd -11.6 %
+   E=20 s H=180 s                  4303   -9.6 %  -18.8 %  -16.8 %  +29.3 %   0.0483 SOL  IC95 moyenne [-11.3 % ; -7.9 %] · non refermés car gradués 1190 · sans poussière (≥ 0,005 SOL) n=4016 rob -18.5 % méd -16.8 %
+   REJEU courbe exacte          n    /h  gradués  marginal(rob/méd)   net 0,005 / 0,01 / 0,05 / 0,1 SOL (robuste)   méd 0,01  gagn.  flux après (moy/méd SOL, >0)
+   E=60 s H= 60 s      10366 436.5      17  -6.9 %/-2.5 %   -8.8 % / -7.9 % / -7.1 % / -7.0 %   -3.5 % +11.2 %  -0.364/0.000 +18.1 %  moyenne 0,01 -5.0 % IC95 [-5.4 % ; -4.6 %]
+   E=45 s H= 60 s      10256 431.8      20  -7.4 %/-2.5 %   -9.4 % / -8.4 % / -7.6 % / -7.5 %   -3.5 % +13.0 %  -0.369/0.000 +20.7 %  moyenne 0,01 -5.1 % IC95 [-5.6 % ; -4.6 %]
+   E=30 s H= 60 s      10064 423.7      18  -8.7 %/-2.5 %   -10.7 % / -9.7 % / -8.9 % / -8.8 %   -3.5 % +14.3 %  -0.525/0.000 +22.6 %  moyenne 0,01 -5.8 % IC95 [-6.3 % ; -5.3 %]
+   E=60 s H=120 s      10366 436.5      33  -9.0 %/-2.5 %   -11.0 % / -10.0 % / -9.2 % / -9.2 %   -3.5 % +10.7 %  -0.621/0.000 +17.2 %  moyenne 0,01 -6.2 % IC95 [-6.8 % ; -5.7 %]
+   E=45 s H=120 s      10256 431.8      36  -9.7 %/-2.7 %   -11.7 % / -10.7 % / -9.9 % / -9.8 %   -3.7 % +11.8 %  -0.647/-0.007 +18.9 %  moyenne 0,01 -6.4 % IC95 [-7.0 % ; -5.9 %]
+   E=20 s H= 60 s       9839 414.3      19  -9.9 %/-2.9 %   -11.8 % / -10.9 % / -10.1 % / -10.0 %   -3.9 % +15.9 %  -0.589/-0.010 +25.1 %  moyenne 0,01 -6.1 % IC95 [-6.8 % ; -5.4 %]
+   vente créateur ≤ 3 s après un petit achat extérieur : +3.4 % (n=141342) · témoin mêmes jetons, même âge, sans achat : +0.9 % (n=66814) · témoin d'activité (après une vente de tiers) : +1.6 % (n=51644)
+   vente créateur + slot de création ≤ 3 s après un petit achat extérieur : +15.7 % (n=141090) · témoin mêmes jetons, même âge, sans achat : +2.2 % (n=66724) · témoin d'activité (après une vente de tiers) : +5.9 % (n=47333)
+
+── pf|SOL|mayhem · 1re moitié : 5301 jetons (446.4/h) · second acheteur +61.0 % (strict +60.9 % ; strict et achats ≥ 0,01 SOL +53.9 %, ≥ 0,05 SOL +33.3 %) · gradués 160 · échanges/jeton méd. 53 · vente de tiers +81.5 %
+   jouables/h par E : {"10":120.8,"20":214.9,"30":247.6,"45":263.4,"60":272.3} · main du créateur : 5266 jetons, payé 3511.3 SOL, reçu 3385.6 SOL (-3.6 %)
+   jetons sans aucun échange +0.4 % · TÉMOIN POSITIF : 160 gradués, prix ×0.04 de la naissance à la fin de courbe (attendu ≈ ×14,7), vq final méd. 0.32 SOL
+   foule, jetons NON gradués
+   âge        positions  payé SOL   strict  valorisé  médiane  gagnants  jamais vendu
+   0-5 s          2008       439   -4.2 %    -3.9 %  -14.1 %  +36.4 %     +1.2 %
+   5-20 s         7962      2040   -4.0 %    -3.5 %  -12.8 %  +36.6 %     +3.2 %
+   20-60 s       10983      1659   -9.9 %    -1.0 %  -13.1 %  +38.2 %    +11.5 %
+   60-300 s      10937       757  -20.3 %   -13.1 %  -13.6 %  +36.0 %    +12.1 %
+   300-∞ s        2175       123  -22.3 %   -13.9 %  -11.6 %  +33.9 %    +13.8 %
+   foule, jetons GRADUÉS (ventes après graduation invisibles : strict pessimiste, valorisé optimiste)
+   âge        positions  payé SOL   strict  valorisé  médiane  gagnants  jamais vendu
+   0-5 s            91        23  -25.3 %   -21.7 %  -50.1 %  +18.7 %    +12.1 %
+   5-20 s          482       156  -12.1 %   +10.4 %  -17.4 %  +35.5 %     +6.0 %
+   20-60 s         989       198  -10.1 %   +26.0 %   +4.7 %  +54.5 %    +15.3 %
+   60-300 s       1456       120  -20.2 %   +54.6 %   +8.2 %  +58.2 %    +18.5 %
+   300-∞ s         559        48  -26.9 %   +63.2 %   -6.1 %  +46.0 %    +28.8 %
+   TIERS au timing (refermé, ≤ 0,1 SOL)     n  moyenne  robuste  médiane  gagnants  mise méd.
+   E=60 s H= 60 s                   654   -3.7 %  -15.2 %   -5.6 %  +43.3 %   0.0394 SOL  IC95 moyenne [-9.3 % ; +2.2 %] · non refermés car gradués 59 · sans poussière (≥ 0,005 SOL) n=631 rob -15.1 % méd -5.7 %
+   E=60 s H=240 s                   289  -10.7 %  -17.5 %   -5.6 %  +38.8 %   0.0249 SOL  IC95 moyenne [-16.2 % ; -5.1 %] · non refermés car gradués 59 · sans poussière (≥ 0,005 SOL) n=267 rob -16.3 % méd -5.1 %
+   E=45 s H=300 s                   242   -9.0 %  -19.6 %   -5.6 %  +42.6 %   0.0291 SOL  IC95 moyenne [-18.4 % ; +4.0 %] · non refermés car gradués 61 · sans poussière (≥ 0,005 SOL) n=234 rob -18.5 % méd -4.2 %
+   E=45 s H=240 s                   290   -9.0 %  -19.6 %   -6.2 %  +41.7 %   0.0303 SOL  IC95 moyenne [-18.3 % ; +2.3 %] · non refermés car gradués 61 · sans poussière (≥ 0,005 SOL) n=281 rob -19.1 % méd -5.6 %
+   E=60 s H=300 s                   257  -13.8 %  -19.7 %   -8.4 %  +36.6 %   0.0231 SOL  IC95 moyenne [-19.1 % ; -7.7 %] · non refermés car gradués 59 · sans poussière (≥ 0,005 SOL) n=235 rob -18.3 % méd -7.5 %
+   E=45 s H= 60 s                   919  -11.0 %  -20.0 %   -7.1 %  +40.4 %   0.0406 SOL  IC95 moyenne [-14.9 % ; -6.6 %] · non refermés car gradués 61 · sans poussière (≥ 0,005 SOL) n=873 rob -20.0 % méd -6.9 %
+   REJEU courbe exacte          n    /h  gradués  marginal(rob/méd)   net 0,005 / 0,01 / 0,05 / 0,1 SOL (robuste)   méd 0,01  gagn.  flux après (moy/méd SOL, >0)
+   E=60 s H= 60 s       3233 272.3      18  -26.9 %/-2.5 %   -28.8 % / -27.8 % / -27.2 % / -34.2 %   -3.5 % +14.1 %  -0.068/0.000 +23.3 %  moyenne 0,01 +2.1 % IC95 [-10.4 % ; +24.6 %]
+   E=45 s H= 60 s       3128 263.4      11  -30.1 %/-3.9 %   -32.1 % / -31.1 % / -30.1 % / -33.2 %   -4.7 % +16.6 %  -0.096/0.000 +26.8 %  moyenne 0,01 -3.6 % IC95 [-10.5 % ; +4.0 %]
+   E=60 s H=120 s       3233 272.3      52  -32.7 %/-2.5 %   -34.6 % / -33.6 % / -33.7 % / -40.8 %   -3.5 % +12.3 %  -0.091/0.000 +23.2 %  moyenne 0,01 +12.0 % IC95 [-10.6 % ; +45.3 %]
+   E=30 s H= 60 s       2940 247.6       6  -34.4 %/-31.2 %   -36.3 % / -35.3 % / -34.5 % / -34.2 %   -32.2 % +18.7 %  -0.136/-0.004 +32.0 %  moyenne 0,01 -3.7 % IC95 [-10.1 % ; +4.0 %]
+   E=60 s H=180 s       3233 272.3      82  -34.4 %/-2.6 %   -36.3 % / -35.3 % / -35.4 % / -42.5 %   -3.6 % +11.8 %  -0.108/0.000 +22.5 %  moyenne 0,01 +14.5 % IC95 [-8.4 % ; +47.9 %]
+   E=60 s H=240 s       3233 272.3      93  -35.7 %/-3.0 %   -37.7 % / -36.7 % / -36.7 % / -44.1 %   -4.0 % +11.4 %  -0.108/0.000 +22.6 %  moyenne 0,01 +10.6 % IC95 [-11.4 % ; +43.1 %]
+   vente créateur ≤ 3 s après un petit achat extérieur : +4.6 % (n=69912) · témoin mêmes jetons, même âge, sans achat : +2.6 % (n=32184) · témoin d'activité (après une vente de tiers) : +5.0 % (n=12087)
+   vente créateur + slot de création ≤ 3 s après un petit achat extérieur : +4.6 % (n=69912) · témoin mêmes jetons, même âge, sans achat : +2.6 % (n=32184) · témoin d'activité (après une vente de tiers) : +5.0 % (n=12082)
+
+── pf|SOL|mayhem · 2de moitié : 6613 jetons (556.9/h) · second acheteur +61.7 % (strict +61.5 % ; strict et achats ≥ 0,01 SOL +56.1 %, ≥ 0,05 SOL +33.2 %) · gradués 101 · échanges/jeton méd. 38 · vente de tiers +81.1 %
+   jouables/h par E : {"10":208.8,"20":297.3,"30":320.2,"45":334.5,"60":343.6} · main du créateur : 6568 jetons, payé 4267.2 SOL, reçu 3709.6 SOL (-13.1 %)
+   jetons sans aucun échange +0.0 % · TÉMOIN POSITIF : 101 gradués, prix ×0.04 de la naissance à la fin de courbe (attendu ≈ ×14,7), vq final méd. 0.30 SOL
+   foule, jetons NON gradués
+   âge        positions  payé SOL   strict  valorisé  médiane  gagnants  jamais vendu
+   0-5 s          4782       973  -11.8 %    -8.7 %  -34.2 %  +32.6 %    +12.7 %
+   5-20 s         9795      2849   -5.9 %    -2.3 %  -16.5 %  +35.9 %     +9.0 %
+   20-60 s        9481      1400  -14.7 %    -3.0 %  -22.1 %  +34.2 %    +17.7 %
+   60-300 s      10273       668  -19.9 %    -7.5 %  -19.6 %  +34.2 %    +18.3 %
+   300-∞ s        2712       125  -24.6 %    -9.9 %   -6.0 %  +33.9 %    +17.4 %
+   foule, jetons GRADUÉS (ventes après graduation invisibles : strict pessimiste, valorisé optimiste)
+   âge        positions  payé SOL   strict  valorisé  médiane  gagnants  jamais vendu
+   0-5 s            93        32  +24.3 %   +25.1 %  -91.0 %  +23.7 %    +44.1 %
+   5-20 s          291       130  -11.1 %   +12.0 %  -15.5 %  +38.1 %    +10.3 %
+   20-60 s         480       165  -28.9 %  +107.2 %   -1.7 %  +47.9 %    +22.1 %
+   60-300 s       1110        85  -17.7 %  +206.8 %   +6.0 %  +55.3 %    +19.6 %
+   300-∞ s         410        24  -37.9 %   +37.9 %   -2.5 %  +47.6 %    +27.3 %
+   TIERS au timing (refermé, ≤ 0,1 SOL)     n  moyenne  robuste  médiane  gagnants  mise méd.
+   E=60 s H= 60 s                   407  +19.8 %  -14.4 %   -4.0 %  +45.2 %   0.0377 SOL  IC95 moyenne [-8.9 % ; +68.4 %] · non refermés car gradués 43 · sans poussière (≥ 0,005 SOL) n=385 rob -15.4 % méd -5.1 %
+   E=45 s H= 60 s                   505   -4.3 %  -15.3 %   -3.8 %  +44.4 %   0.0391 SOL  IC95 moyenne [-10.4 % ; +2.7 %] · non refermés car gradués 52 · sans poussière (≥ 0,005 SOL) n=473 rob -15.0 % méd -3.8 %
+   E=60 s H=120 s                   254  +27.3 %  -19.6 %   -9.9 %  +42.5 %   0.0248 SOL  IC95 moyenne [-15.3 % ; +106.0 %] · non refermés car gradués 43 · sans poussière (≥ 0,005 SOL) n=233 rob -18.2 % méd -7.3 %
+   E=45 s H=120 s                   286   -5.4 %  -19.9 %   -7.8 %  +42.7 %   0.0334 SOL  IC95 moyenne [-15.3 % ; +5.7 %] · non refermés car gradués 52 · sans poussière (≥ 0,005 SOL) n=270 rob -18.6 % méd -4.6 %
+   E=45 s H=180 s                   228   -4.4 %  -20.2 %  -11.1 %  +39.9 %   0.0274 SOL  IC95 moyenne [-15.4 % ; +8.2 %] · non refermés car gradués 52 · sans poussière (≥ 0,005 SOL) n=208 rob -17.9 % méd -7.8 %
+   E=30 s H=120 s                   348   -1.4 %  -23.3 %  -10.8 %  +38.2 %   0.0395 SOL  IC95 moyenne [-17.6 % ; +22.9 %] · non refermés car gradués 30 · sans poussière (≥ 0,005 SOL) n=327 rob -23.1 % méd -10.2 %
+   REJEU courbe exacte          n    /h  gradués  marginal(rob/méd)   net 0,005 / 0,01 / 0,05 / 0,1 SOL (robuste)   méd 0,01  gagn.  flux après (moy/méd SOL, >0)
+   E=60 s H= 60 s       4080 343.6      10  -18.9 %/-0.2 %   -20.9 % / -19.9 % / -19.1 % / -19.0 %   -1.2 % +14.3 %  -0.057/0.000 +16.4 %  moyenne 0,01 -1.1 % IC95 [-6.4 % ; +5.3 %]
+   E=45 s H= 60 s       3972 334.5       6  -21.7 %/-2.5 %   -23.7 % / -22.7 % / -21.9 % / -21.7 %   -3.5 % +16.8 %  -0.088/0.000 +19.4 %  moyenne 0,01 -1.5 % IC95 [-5.7 % ; +3.4 %]
+   E=60 s H=120 s       4080 343.6      24  -24.0 %/-2.5 %   -26.0 % / -25.0 % / -24.2 % / -24.0 %   -3.5 % +12.2 %  -0.074/0.000 +17.0 %  moyenne 0,01 +2.2 % IC95 [-9.0 % ; +19.1 %]
+   E=60 s H=180 s       4080 343.6      43  -26.5 %/-2.5 %   -28.5 % / -27.5 % / -26.9 % / -28.9 %   -3.5 % +11.6 %  -0.080/0.000 +17.1 %  moyenne 0,01 +4.4 % IC95 [-8.8 % ; +23.2 %]
+   E=30 s H= 60 s       3802 320.2       5  -26.9 %/-3.4 %   -28.9 % / -27.9 % / -27.1 % / -27.0 %   -4.4 % +18.8 %  -0.117/0.000 +24.5 %  moyenne 0,01 -1.7 % IC95 [-6.9 % ; +4.4 %]
+   E=45 s H=120 s       3972 334.5      17  -27.2 %/-2.5 %   -29.2 % / -28.2 % / -27.4 % / -28.1 %   -3.5 % +14.9 %  -0.109/0.000 +19.6 %  moyenne 0,01 -0.5 % IC95 [-8.0 % ; +8.3 %]
+   vente créateur ≤ 3 s après un petit achat extérieur : +4.3 % (n=49146) · témoin mêmes jetons, même âge, sans achat : +2.3 % (n=37527) · témoin d'activité (après une vente de tiers) : +5.5 % (n=13254)
+   vente créateur + slot de création ≤ 3 s après un petit achat extérieur : +4.4 % (n=49118) · témoin mêmes jetons, même âge, sans achat : +2.3 % (n=37517) · témoin d'activité (après une vente de tiers) : +5.5 % (n=13245)
+
+── pf|SOL|mayhem · tout : 11914 jetons (501.6/h) · second acheteur +61.4 % (strict +61.3 % ; strict et achats ≥ 0,01 SOL +55.1 %, ≥ 0,05 SOL +33.3 %) · gradués 261 · échanges/jeton méd. 44 · vente de tiers +81.3 %
+   jouables/h par E : {"10":164.8,"20":256.1,"30":283.9,"45":298.9,"60":307.9} · main du créateur : 11834 jetons, payé 7778.5 SOL, reçu 7095.2 SOL (-8.8 %)
+   jetons sans aucun échange +0.2 % · TÉMOIN POSITIF : 261 gradués, prix ×0.04 de la naissance à la fin de courbe (attendu ≈ ×14,7), vq final méd. 0.31 SOL
+   foule, jetons NON gradués
+   âge        positions  payé SOL   strict  valorisé  médiane  gagnants  jamais vendu
+   0-5 s          6790      1411   -9.4 %    -7.2 %  -26.9 %  +33.8 %     +9.3 %
+   5-20 s        17757      4889   -5.1 %    -2.8 %  -14.8 %  +36.2 %     +6.4 %
+   20-60 s       20464      3059  -12.1 %    -1.9 %  -16.8 %  +36.4 %    +14.3 %
+   60-300 s      21210      1425  -20.1 %   -10.5 %  -16.1 %  +35.1 %    +15.1 %
+   300-∞ s        4887       248  -23.4 %   -11.9 %   -8.6 %  +33.9 %    +15.8 %
+   foule, jetons GRADUÉS (ventes après graduation invisibles : strict pessimiste, valorisé optimiste)
+   âge        positions  payé SOL   strict  valorisé  médiane  gagnants  jamais vendu
+   0-5 s           184        56   +3.4 %    +5.4 %  -57.8 %  +21.2 %    +28.3 %
+   5-20 s          773       286  -11.6 %   +11.1 %  -16.5 %  +36.5 %     +7.6 %
+   20-60 s        1469       363  -18.6 %   +62.9 %   +2.6 %  +52.3 %    +17.5 %
+   60-300 s       2566       205  -19.1 %  +117.5 %   +7.4 %  +56.9 %    +19.0 %
+   300-∞ s         969        72  -30.6 %   +54.7 %   -4.2 %  +46.6 %    +28.2 %
+   TIERS au timing (refermé, ≤ 0,1 SOL)     n  moyenne  robuste  médiane  gagnants  mise méd.
+   E=60 s H= 60 s                  1061   +5.3 %  -14.9 %   -5.5 %  +44.0 %   0.0390 SOL  IC95 moyenne [-6.9 % ; +25.9 %] · non refermés car gradués 102 · sans poussière (≥ 0,005 SOL) n=1016 rob -15.1 % méd -5.6 %
+   E=45 s H= 60 s                  1424   -8.6 %  -18.4 %   -5.8 %  +41.8 %   0.0400 SOL  IC95 moyenne [-12.1 % ; -5.0 %] · non refermés car gradués 113 · sans poussière (≥ 0,005 SOL) n=1346 rob -18.4 % méd -5.7 %
+   E=60 s H=120 s                   637   +4.0 %  -20.2 %   -8.4 %  +41.6 %   0.0315 SOL  IC95 moyenne [-14.2 % ; +36.7 %] · non refermés car gradués 102 · sans poussière (≥ 0,005 SOL) n=593 rob -18.8 % méd -7.3 %
+   E=60 s H=240 s                   487  -13.1 %  -20.4 %   -9.0 %  +37.4 %   0.0230 SOL  IC95 moyenne [-17.4 % ; -7.9 %] · non refermés car gradués 102 · sans poussière (≥ 0,005 SOL) n=445 rob -18.0 % méd -6.3 %
+   E=45 s H=240 s                   462   -7.9 %  -21.1 %   -8.2 %  +40.0 %   0.0282 SOL  IC95 moyenne [-15.5 % ; +1.0 %] · non refermés car gradués 113 · sans poussière (≥ 0,005 SOL) n=433 rob -19.7 % méd -6.9 %
+   E=60 s H=180 s                   591  -13.3 %  -21.8 %  -10.9 %  +37.1 %   0.0230 SOL  IC95 moyenne [-17.8 % ; -8.3 %] · non refermés car gradués 102 · sans poussière (≥ 0,005 SOL) n=544 rob -19.3 % méd -8.3 %
+   REJEU courbe exacte          n    /h  gradués  marginal(rob/méd)   net 0,005 / 0,01 / 0,05 / 0,1 SOL (robuste)   méd 0,01  gagn.  flux après (moy/méd SOL, >0)
+   E=60 s H= 60 s       7313 307.9      28  -22.4 %/-1.2 %   -24.4 % / -23.4 % / -22.7 % / -25.7 %   -2.2 % +14.2 %  -0.062/0.000 +19.5 %  moyenne 0,01 +0.3 % IC95 [-6.3 % ; +9.7 %]
+   E=45 s H= 60 s       7100 298.9      17  -25.4 %/-2.5 %   -27.4 % / -26.4 % / -25.5 % / -26.8 %   -3.5 % +16.7 %  -0.092/0.000 +22.6 %  moyenne 0,01 -2.5 % IC95 [-6.7 % ; +2.2 %]
+   E=60 s H=120 s       7313 307.9      76  -27.9 %/-2.5 %   -29.8 % / -28.8 % / -28.4 % / -31.4 %   -3.5 % +12.2 %  -0.082/0.000 +19.8 %  moyenne 0,01 +6.6 % IC95 [-5.4 % ; +23.3 %]
+   E=60 s H=180 s       7313 307.9     125  -30.0 %/-2.5 %   -32.0 % / -31.0 % / -30.6 % / -34.9 %   -3.5 % +11.7 %  -0.092/0.000 +19.5 %  moyenne 0,01 +8.8 % IC95 [-3.2 % ; +25.5 %]
+   E=30 s H= 60 s       6742 283.9      11  -30.2 %/-14.2 %   -32.2 % / -31.2 % / -30.4 % / -30.2 %   -15.2 % +18.7 %  -0.125/-0.001 +27.8 %  moyenne 0,01 -2.6 % IC95 [-6.6 % ; +2.3 %]
+   E=60 s H=240 s       7313 307.9     147  -31.2 %/-2.5 %   -33.2 % / -32.2 % / -31.8 % / -35.3 %   -3.5 % +11.3 %  -0.095/0.000 +19.4 %  moyenne 0,01 +7.2 % IC95 [-4.9 % ; +24.0 %]
+   vente créateur ≤ 3 s après un petit achat extérieur : +4.5 % (n=119058) · témoin mêmes jetons, même âge, sans achat : +2.4 % (n=69711) · témoin d'activité (après une vente de tiers) : +5.3 % (n=25341)
+   vente créateur + slot de création ≤ 3 s après un petit achat extérieur : +4.5 % (n=119030) · témoin mêmes jetons, même âge, sans achat : +2.4 % (n=69701) · témoin d'activité (après une vente de tiers) : +5.3 % (n=25327)
+
+── pf|autres cotations · 1re moitié : 2666 jetons (224.5/h) · second acheteur +34.9 % (strict +30.8 % ; strict et achats ≥ 0,01 SOL +17.2 %, ≥ 0,05 SOL +13.0 %) · gradués 12 · échanges/jeton méd. 2 · vente de tiers +50.5 %
+   jouables/h par E : {"10":67.3,"20":71.3,"30":74,"45":76.7,"60":78.1} · main du créateur : 688 jetons, payé 239300.4 SOL, reçu 255927.9 SOL (+6.9 %)
+   jetons sans aucun échange +35.8 % · TÉMOIN POSITIF : 12 gradués, prix ×14.70 de la naissance à la fin de courbe (attendu ≈ ×14,7), vq final méd. 3.49 SOL
+   foule, jetons NON gradués
+   âge        positions  payé SOL   strict  valorisé  médiane  gagnants  jamais vendu
+   0-5 s          4992    769700   -9.2 %    -1.1 %   -7.3 %  +30.7 %     +0.9 %
+   5-20 s         4970    737139   +6.5 %    +7.3 %   -7.7 %  +31.5 %     +0.5 %
+   20-60 s        5974   1234217   -1.5 %    +3.8 %   -8.4 %  +31.4 %     +3.4 %
+   60-300 s       9811   1945361   -9.6 %    -7.7 %  -13.3 %  +28.0 %     +5.5 %
+   300-∞ s       13119   2592948  -15.2 %    -8.5 %  -13.6 %  +25.5 %    +10.9 %
+   foule, jetons GRADUÉS (ventes après graduation invisibles : strict pessimiste, valorisé optimiste)
+   âge        positions  payé SOL   strict  valorisé  médiane  gagnants  jamais vendu
+   0-5 s           231      6209   -8.0 %  +263.7 %  -16.1 %  +42.0 %    +44.2 %
+   5-20 s          285     17943  -14.3 %   +74.1 %   +8.4 %  +56.5 %    +22.8 %
+   20-60 s         545     16294  -38.1 %   +98.3 %   -2.7 %  +47.9 %    +26.8 %
+   60-300 s       1627     31425  -18.8 %   +69.4 %  -12.4 %  +40.5 %    +31.6 %
+   300-∞ s        2700     81950  -31.2 %   +31.8 %  -66.3 %  +25.9 %    +47.5 %
+   REJEU courbe exacte          n    /h  gradués  marginal(rob/méd)   net 0,005 / 0,01 / 0,05 / 0,1 SOL (robuste)   méd 0,01  gagn.  flux après (moy/méd SOL, >0)
+   E=60 s H= 60 s        928  78.1       1  -6.9 %/-2.5 %   -6.9 % / -6.9 % / -6.9 % / -6.9 %   -2.5 % +12.9 %  -215.589/0.000 +17.9 %  moyenne 0,01 -4.2 % IC95 [— ; —]
+   E=45 s H= 60 s        911  76.7       1  -7.3 %/-2.5 %   -7.3 % / -7.3 % / -7.3 % / -7.3 %   -2.5 % +15.6 %  -2.590/0.000 +21.7 %  moyenne 0,01 -3.9 % IC95 [— ; —]
+   E=30 s H= 60 s        879    74       1  -8.5 %/-3.3 %   -8.5 % / -8.5 % / -8.5 % / -8.5 %   -3.3 % +18.3 %  -177.948/0.000 +24.5 %  moyenne 0,01 -4.5 % IC95 [— ; —]
+   E=60 s H=120 s        928  78.1       1  -9.5 %/-3.6 %   -9.5 % / -9.5 % / -9.5 % / -9.5 %   -3.6 % +12.7 %  -328.076/-0.000 +16.8 %  moyenne 0,01 -5.3 % IC95 [— ; —]
+   E=45 s H=120 s        911  76.7       1  -10.1 %/-3.8 %   -10.1 % / -10.1 % / -10.1 % / -10.1 %   -3.8 % +13.4 %  -244.533/-0.000 +19.0 %  moyenne 0,01 -5.3 % IC95 [— ; —]
+   E=20 s H= 60 s        847  71.3       1  -10.2 %/-5.0 %   -10.2 % / -10.2 % / -10.2 % / -10.2 %   -5.0 % +20.2 %  -43.349/-0.000 +27.3 %  moyenne 0,01 -4.6 % IC95 [— ; —]
+   vente créateur ≤ 3 s après un petit achat extérieur : +1.4 % (n=13289) · témoin mêmes jetons, même âge, sans achat : +0.9 % (n=5700) · témoin d'activité (après une vente de tiers) : +0.8 % (n=4263)
+   vente créateur + slot de création ≤ 3 s après un petit achat extérieur : +7.3 % (n=13263) · témoin mêmes jetons, même âge, sans achat : +2.2 % (n=5688) · témoin d'activité (après une vente de tiers) : +8.0 % (n=3820)
+
+── pf|autres cotations · 2de moitié : 4768 jetons (401.5/h) · second acheteur +33.3 % (strict +28.0 % ; strict et achats ≥ 0,01 SOL +15.6 %, ≥ 0,05 SOL +12.1 %) · gradués 36 · échanges/jeton méd. 2 · vente de tiers +42.6 %
+   jouables/h par E : {"10":121.9,"20":126.1,"30":128.6,"45":130.9,"60":132.4} · main du créateur : 1404 jetons, payé 966400.8 SOL, reçu 1333240.3 SOL (+38.0 %)
+   jetons sans aucun échange +40.0 % · TÉMOIN POSITIF : 36 gradués, prix ×14.70 de la naissance à la fin de courbe (attendu ≈ ×14,7), vq final méd. 0.09 SOL
+   foule, jetons NON gradués
+   âge        positions  payé SOL   strict  valorisé  médiane  gagnants  jamais vendu
+   0-5 s         10490   2055347  -33.5 %   -17.5 %  -12.0 %  +27.0 %     +9.9 %
+   5-20 s        10265    957075  -26.0 %   -20.3 %  -15.3 %  +26.0 %    +10.0 %
+   20-60 s       10227    503990  -41.7 %   -15.1 %  -21.6 %  +22.2 %    +15.7 %
+   60-300 s      12831    723633  -28.1 %   -14.0 %  -20.7 %  +24.1 %    +17.8 %
+   300-∞ s       13735    683898  -28.8 %   -11.7 %  -23.2 %  +20.3 %    +24.0 %
+   foule, jetons GRADUÉS (ventes après graduation invisibles : strict pessimiste, valorisé optimiste)
+   âge        positions  payé SOL   strict  valorisé  médiane  gagnants  jamais vendu
+   0-5 s           683     71582  -34.6 %  +240.0 % -100.0 %  +26.2 %    +56.4 %
+   5-20 s          733      6238  +63.4 %  +231.4 %  -14.7 %  +39.0 %    +33.3 %
+   20-60 s        1158     19035  -14.0 %  +115.2 %  -29.8 %  +37.5 %    +40.7 %
+   60-300 s       2334     80801  -33.3 %   +95.8 % -100.0 %  +25.2 %    +51.6 %
+   300-∞ s        2585    759297  -55.7 %  +104.5 % -100.0 %  +21.2 %    +51.8 %
+   REJEU courbe exacte          n    /h  gradués  marginal(rob/méd)   net 0,005 / 0,01 / 0,05 / 0,1 SOL (robuste)   méd 0,01  gagn.  flux après (moy/méd SOL, >0)
+   E=60 s H= 60 s       1572 132.4       2  -6.4 %/-2.5 %   -6.4 % / -6.4 % / -6.4 % / -6.4 %   -2.5 % +10.2 %  -40.707/0.000 +13.6 %  moyenne 0,01 -3.4 % IC95 [— ; —]
+   E=45 s H= 60 s       1555 130.9       4  -6.9 %/-2.5 %   -6.9 % / -6.9 % / -6.9 % / -6.9 %   -2.5 % +12.0 %  -31.213/0.000 +16.9 %  moyenne 0,01 -3.7 % IC95 [— ; —]
+   E=30 s H= 60 s       1527 128.6       4  -8.7 %/-2.7 %   -8.7 % / -8.7 % / -8.7 % / -8.7 %   -2.7 % +13.1 %  -84.578/0.000 +19.8 %  moyenne 0,01 -5.0 % IC95 [— ; —]
+   E=60 s H=120 s       1572 132.4       5  -9.7 %/-3.0 %   -9.7 % / -9.7 % / -9.7 % / -9.7 %   -3.0 % +9.9 %  -40.588/0.000 +13.8 %  moyenne 0,01 -4.9 % IC95 [— ; —]
+   E=45 s H=120 s       1555 130.9       7  -9.8 %/-3.0 %   -9.8 % / -9.8 % / -9.8 % / -9.8 %   -3.0 % +11.9 %  -73.196/0.000 +15.6 %  moyenne 0,01 -4.7 % IC95 [— ; —]
+   E=20 s H= 60 s       1498 126.1       7  -10.3 %/-3.7 %   -10.3 % / -10.3 % / -10.3 % / -10.3 %   -3.7 % +15.8 %  -201.177/0.000 +22.7 %  moyenne 0,01 -5.9 % IC95 [— ; —]
+   vente créateur ≤ 3 s après un petit achat extérieur : +2.6 % (n=24972) · témoin mêmes jetons, même âge, sans achat : +0.9 % (n=8345) · témoin d'activité (après une vente de tiers) : +1.7 % (n=5843)
+   vente créateur + slot de création ≤ 3 s après un petit achat extérieur : +10.6 % (n=24937) · témoin mêmes jetons, même âge, sans achat : +2.0 % (n=8345) · témoin d'activité (après une vente de tiers) : +8.1 % (n=5295)
+
+── pf|autres cotations · tout : 7434 jetons (313/h) · second acheteur +33.9 % (strict +29.0 % ; strict et achats ≥ 0,01 SOL +16.1 %, ≥ 0,05 SOL +12.5 %) · gradués 48 · échanges/jeton méd. 2 · vente de tiers +45.4 %
+   jouables/h par E : {"10":94.6,"20":98.7,"30":101.3,"45":103.8,"60":105.3} · main du créateur : 2092 jetons, payé 1205701.2 SOL, reçu 1589168.2 SOL (+31.8 %)
+   jetons sans aucun échange +38.5 % · TÉMOIN POSITIF : 48 gradués, prix ×14.70 de la naissance à la fin de courbe (attendu ≈ ×14,7), vq final méd. 1.15 SOL
+   foule, jetons NON gradués
+   âge        positions  payé SOL   strict  valorisé  médiane  gagnants  jamais vendu
+   0-5 s         15482   2825047  -26.9 %   -13.0 %  -10.0 %  +28.2 %     +7.0 %
+   5-20 s        15235   1694214  -11.9 %    -8.3 %  -12.1 %  +27.8 %     +6.9 %
+   20-60 s       16201   1738207  -13.2 %    -1.6 %  -15.6 %  +25.6 %    +11.2 %
+   60-300 s      22642   2668994  -14.6 %    -9.4 %  -17.2 %  +25.8 %    +12.5 %
+   300-∞ s       26854   3276846  -18.1 %    -9.2 %  -17.7 %  +22.9 %    +17.6 %
+   foule, jetons GRADUÉS (ventes après graduation invisibles : strict pessimiste, valorisé optimiste)
+   âge        positions  payé SOL   strict  valorisé  médiane  gagnants  jamais vendu
+   0-5 s           914     77791  -32.5 %  +241.9 % -100.0 %  +30.2 %    +53.3 %
+   5-20 s         1018     24181   +5.7 %  +114.7 %   -7.1 %  +43.9 %    +30.4 %
+   20-60 s        1703     35330  -25.1 %  +107.4 %  -16.4 %  +40.8 %    +36.2 %
+   60-300 s       3961    112226  -29.2 %   +88.4 %  -40.8 %  +31.5 %    +43.4 %
+   300-∞ s        5285    841247  -53.3 %   +97.5 %  -85.9 %  +23.6 %    +49.6 %
+   REJEU courbe exacte          n    /h  gradués  marginal(rob/méd)   net 0,005 / 0,01 / 0,05 / 0,1 SOL (robuste)   méd 0,01  gagn.  flux après (moy/méd SOL, >0)
+   E=60 s H= 60 s       2500 105.3       3  -6.6 %/-2.5 %   -6.6 % / -6.6 % / -6.6 % / -6.6 %   -2.5 % +11.2 %  -105.623/0.000 +15.2 %  moyenne 0,01 -3.7 % IC95 [— ; —]
+   E=45 s H= 60 s       2466 103.8       5  -7.1 %/-2.5 %   -7.1 % / -7.1 % / -7.1 % / -7.1 %   -2.5 % +13.3 %  -20.639/0.000 +18.7 %  moyenne 0,01 -3.8 % IC95 [— ; —]
+   E=30 s H= 60 s       2406 101.3       5  -8.6 %/-2.9 %   -8.6 % / -8.6 % / -8.6 % / -8.6 %   -2.9 % +15.0 %  -118.689/0.000 +21.5 %  moyenne 0,01 -4.8 % IC95 [— ; —]
+   E=60 s H=120 s       2500 105.3       6  -9.6 %/-3.2 %   -9.6 % / -9.6 % / -9.6 % / -9.6 %   -3.2 % +10.9 %  -147.303/0.000 +14.9 %  moyenne 0,01 -5.1 % IC95 [— ; —]
+   E=45 s H=120 s       2466 103.8       8  -9.9 %/-3.5 %   -9.9 % / -9.9 % / -9.9 % / -9.9 %   -3.5 % +12.4 %  -136.492/0.000 +16.9 %  moyenne 0,01 -4.9 % IC95 [— ; —]
+   E=20 s H= 60 s       2345  98.7       8  -10.3 %/-3.8 %   -10.3 % / -10.3 % / -10.3 % / -10.3 %   -3.8 % +17.4 %  -144.171/0.000 +24.3 %  moyenne 0,01 -5.4 % IC95 [— ; —]
+   vente créateur ≤ 3 s après un petit achat extérieur : +2.2 % (n=38261) · témoin mêmes jetons, même âge, sans achat : +0.9 % (n=14045) · témoin d'activité (après une vente de tiers) : +1.3 % (n=10106)
+   vente créateur + slot de création ≤ 3 s après un petit achat extérieur : +9.4 % (n=38200) · témoin mêmes jetons, même âge, sans achat : +2.1 % (n=14033) · témoin d'activité (après une vente de tiers) : +8.1 % (n=9115)
+
+── ll|cotation inconnue · 1re moitié : 198 jetons (16.7/h) · second acheteur MAJORANT (tx distinctes) +46.0 % · jouables/h {"10":5.8,"20":6.5,"30":6.8,"45":7.4,"60":7.7} · échanges/jeton méd. 8
+   rejeu E=60 H=60 n=91 (7.7/h) marginal -3.8 %/-2.5 % · net 0,01 SOL -3.8 % méd -2.5 % · 0,1 SOL -3.9 %
+   rejeu E=45 H=60 n=88 (7.4/h) marginal -5.9 %/-2.5 % · net 0,01 SOL -6.2 % méd -2.5 % · 0,1 SOL -6.7 %
+   rejeu E=60 H=120 n=91 (7.7/h) marginal -7.6 %/-2.5 % · net 0,01 SOL -7.6 % méd -2.5 % · 0,1 SOL -8.2 %
+   rejeu E=60 H=180 n=91 (7.7/h) marginal -8.1 %/-2.5 % · net 0,01 SOL -8.2 % méd -2.5 % · 0,1 SOL -8.7 %
+   rejeu E=60 H=240 n=91 (7.7/h) marginal -8.6 %/-2.5 % · net 0,01 SOL -8.7 % méd -2.5 % · 0,1 SOL -9.3 %
+
+── ll|cotation inconnue · 2de moitié : 527 jetons (44.4/h) · second acheteur MAJORANT (tx distinctes) +59.6 % · jouables/h {"10":23.1,"20":24.6,"30":25.2,"45":25.9,"60":26.4} · échanges/jeton méd. 10
+   rejeu E=60 H=60 n=314 (26.4/h) marginal -7.4 %/-2.5 % · net 0,01 SOL -7.5 % méd -2.5 % · 0,1 SOL -8.2 %
+   rejeu E=45 H=60 n=308 (25.9/h) marginal -9.5 %/-2.5 % · net 0,01 SOL -9.5 % méd -2.5 % · 0,1 SOL -10.8 %
+   rejeu E=30 H=60 n=299 (25.2/h) marginal -9.6 %/-2.5 % · net 0,01 SOL -9.6 % méd -2.5 % · 0,1 SOL -9.6 %
+   rejeu E=60 H=120 n=314 (26.4/h) marginal -9.6 %/-2.6 % · net 0,01 SOL -9.6 % méd -2.6 % · 0,1 SOL -10.4 %
+   rejeu E=60 H=180 n=314 (26.4/h) marginal -10.9 %/-3.0 % · net 0,01 SOL -10.9 % méd -3.0 % · 0,1 SOL -11.7 %
+
+── ll|cotation inconnue · tout : 725 jetons (30.5/h) · second acheteur MAJORANT (tx distinctes) +55.9 % · jouables/h {"10":14.4,"20":15.5,"30":16,"45":16.7,"60":17.1} · échanges/jeton méd. 10
+   rejeu E=60 H=60 n=405 (17.1/h) marginal -6.8 %/-2.5 % · net 0,01 SOL -6.8 % méd -2.5 % · 0,1 SOL -7.4 %
+   rejeu E=45 H=60 n=396 (16.7/h) marginal -8.8 %/-2.5 % · net 0,01 SOL -8.9 % méd -2.5 % · 0,1 SOL -9.9 %
+   rejeu E=60 H=120 n=405 (17.1/h) marginal -9.2 %/-2.5 % · net 0,01 SOL -9.2 % méd -2.5 % · 0,1 SOL -9.9 %
+   rejeu E=30 H=60 n=380 (16/h) marginal -9.6 %/-2.6 % · net 0,01 SOL -9.7 % méd -2.7 % · 0,1 SOL -9.9 %
+   rejeu E=60 H=180 n=405 (17.1/h) marginal -10.4 %/-2.8 % · net 0,01 SOL -10.4 % méd -2.8 % · 0,1 SOL -11.1 %
+
+── pf|SOL, HORS RÈGLE : entrée de sniper (rejeu marginal, sans coût ; net robuste à 0,1 SOL)
+   E=2 s H=60 s n=8721 : marginal moyenne -8.1 % robuste -15.4 % médiane -11.2 % · net 0,1 SOL robuste -15.5 %
+   E=2 s H=120 s n=8721 : marginal moyenne -10.1 % robuste -19.2 % médiane -16.0 % · net 0,1 SOL robuste -19.3 %
+   E=2 s H=300 s n=8721 : marginal moyenne -12.7 % robuste -24.4 % médiane -21.7 % · net 0,1 SOL robuste -24.5 %
+   E=5 s H=60 s n=9167 : marginal moyenne -6.6 % robuste -13.3 % médiane -7.0 % · net 0,1 SOL robuste -13.4 %
+   E=5 s H=120 s n=9167 : marginal moyenne -8.3 % robuste -16.7 % médiane -11.6 % · net 0,1 SOL robuste -16.8 %
+   E=5 s H=300 s n=9167 : marginal moyenne -11.0 % robuste -21.7 % médiane -17.2 % · net 0,1 SOL robuste -21.9 %
+
+── pf|SOL heure par heure (naissance, UTC) : jetons · sans échange · second acheteur · rejeu E=60/H=60 (n, robuste, moyenne, médiane) · rejeu E=20/H=180
+   00 h    905   +3.2 %  +60.6 %     539   -7.6 %   -4.9 %   -3.5 %     518  -15.5 %   -8.3 %   -9.8 %
+   01 h   1113  +31.5 %  +42.7 %     466   -8.5 %   -5.6 %   -3.5 %     445  -15.7 %   -7.9 %   -9.6 %
+   02 h    782   +5.9 %  +55.6 %     430   -7.5 %   -4.7 %   -3.5 %     403  -17.0 %   -8.6 %   -9.4 %
+   03 h    745   +4.3 %  +63.5 %     469   -8.9 %   -3.4 %   -3.5 %     439  -19.2 %   -8.3 %   -9.9 %
+   04 h    623   +6.3 %  +63.7 %     396   -8.5 %   -5.7 %   -3.5 %     366  -15.6 %   -8.7 %   -8.6 %
+   05 h    688  +11.2 %  +45.2 %     310   -7.9 %   -5.3 %   -3.5 %     291  -14.3 %   -7.1 %   -8.6 %
+   06 h    580   +2.9 %  +58.3 %     337   -8.4 %   -5.9 %   -3.7 %     312  -14.5 %   -7.8 %   -9.9 %
+   07 h    530   +1.1 %  +73.0 %     384   -9.2 %   -5.5 %   -3.8 %     361  -14.9 %   -7.9 %  -11.4 %
+   08 h    536   +1.7 %  +65.9 %     348   -7.5 %   -4.9 %   -3.5 %     330  -16.1 %   -8.6 %  -12.3 %
+   09 h    632   +4.1 %  +61.4 %     384   -6.9 %   -5.0 %   -3.5 %     369  -15.5 %   -9.1 %   -9.9 %
+   10 h    558   +6.3 %  +53.4 %     291   -7.9 %   -5.2 %   -3.5 %     268  -15.8 %   -9.1 %   -8.4 %
+   11 h    637   +8.3 %  +50.4 %     319   -7.5 %   -5.6 %   -3.5 %     294  -15.3 %  -11.8 %   -9.6 %
+   12 h    831   +7.2 %  +59.8 %     495   -8.1 %   -6.1 %   -3.5 %     479  -18.2 %  -13.1 %   -8.4 %
+   13 h    888  +14.5 %  +51.8 %     458   -8.1 %   -6.2 %   -3.5 %     442  -15.4 %   -9.5 %   -4.7 %
+   14 h   1069  +10.3 %  +45.7 %     484   -7.2 %   -5.0 %   -3.5 %     445  -16.2 %   -8.1 %   -7.0 %
+   15 h    871  +10.1 %  +54.4 %     471   -7.0 %   -3.5 %   -3.5 %     452  -14.7 %   -9.2 %   -5.9 %
+   16 h    782   +6.8 %  +60.2 %     470   -7.5 %   -5.6 %   -3.5 %     451  -14.6 %   -9.2 %   -4.1 %
+   17 h    946  +15.2 %  +54.1 %     511   -7.7 %   -4.6 %   -3.5 %     497  -14.9 %   -8.7 %   -6.0 %
+   18 h   1010  +12.0 %  +56.3 %     568   -8.1 %   -5.1 %   -3.5 %     533  -15.3 %   -8.1 %   -6.8 %
+   19 h   1047  +22.3 %  +43.7 %     456   -7.5 %   -5.3 %   -3.5 %     444  -15.9 %   -9.3 %   -5.1 %
+   20 h    681   +1.3 %  +57.6 %     389   -6.6 %   -3.5 %   -3.5 %     372  -14.5 %   -7.5 %   -4.5 %
+   21 h    904  +11.4 %  +50.6 %     455   -8.4 %   -4.0 %   -3.5 %     444  -16.0 %   -7.0 %   -4.7 %
+   22 h   1018   +5.2 %  +52.7 %     529   -7.8 %   -4.9 %   -3.5 %     501  -17.8 %  -10.5 %   -6.7 %
+   23 h    775  +11.0 %  +53.0 %     407   -8.5 %   -5.4 %   -3.5 %     383  -15.7 %   -6.5 %   -8.1 %
+
+▶ pf|SOL — marche avant : (E=60 s, H=60 s) choisi sur la 1re moitié (robuste -8.0 %, méd -3.5 %) → 2de moitié : robuste -7.7 %, méd -3.5 %, n=5737 (483.1/h) à 0.01 SOL
+
+▶ pf|SOL|mayhem — marche avant : (E=60 s, H=60 s) choisi sur la 1re moitié (robuste -27.8 %, méd -3.5 %) → 2de moitié : robuste -19.9 %, méd -1.2 %, n=4080 (343.6/h) à 0.01 SOL
+
+▶ pf|autres cotations — marche avant : (E=60 s, H=60 s) choisi sur la 1re moitié (robuste -6.9 %, méd -2.5 %) → 2de moitié : robuste -6.4 %, méd -2.5 %, n=1572 (132.4/h) à 0.01 SOL
+
+▶ ll|cotation inconnue — marche avant : (E=60 s, H=60 s) choisi sur la 1re moitié (robuste -3.8 %, méd -2.5 %) → 2de moitié : robuste -7.5 %, méd -2.5 %, n=314 (26.4/h) à 0.01 SOL
+
+→ <workdir>/data/pumpfun-16d/2026-10-15.json
+       40.10 real        43.92 user         6.64 sys
+          2650931200  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              826016  page reclaims
+                 333  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+               12886  messages sent
+               25737  messages received
+                   0  signals received
+               25865  voluntary context switches
+              156150  involuntary context switches
+        662228261958  instructions retired
+        202768940872  cycles elapsed
+          4087511608  peak memory footprint
