@@ -1,0 +1,189 @@
+{
+ "all": {
+  "hands": 1129662,
+  "positions": 11371058,
+  "sol": 7415647.473203175,
+  "segments": [
+   {
+    "label": "1 position",
+    "hands": 507199,
+    "pctHands": 44.89829701273478,
+    "positions": 507199,
+    "pctPositions": 4.460438070054695,
+    "pctPositionsOfVariant": 4.460438070054695,
+    "sol": 415106.9950740018,
+    "pctSol": 5.597717482849776,
+    "pctSolOfVariant": 5.597717482849776,
+    "median": -70.40558459908293
+   },
+   {
+    "label": "2-5",
+    "hands": 437462,
+    "pctHands": 38.72503456786189,
+    "positions": 1246756,
+    "pctPositions": 10.96429197705262,
+    "pctPositionsOfVariant": 10.96429197705262,
+    "sol": 575207.985577436,
+    "pctSol": 7.756679206447984,
+    "pctSolOfVariant": 7.756679206447984,
+    "median": -68.31010730372094
+   },
+   {
+    "label": "6-20",
+    "hands": 115276,
+    "pctHands": 10.204468239172424,
+    "positions": 1162230,
+    "pctPositions": 10.220948657547961,
+    "pctPositionsOfVariant": 10.220948657547961,
+    "sol": 653877.5518814707,
+    "pctSol": 8.817538242537701,
+    "pctSolOfVariant": 8.817538242537701,
+    "median": -30.561920158125112
+   },
+   {
+    "label": "21-100",
+    "hands": 53404,
+    "pctHands": 4.72743174507065,
+    "positions": 2358092,
+    "pctPositions": 20.737665747549613,
+    "pctPositionsOfVariant": 20.737665747549613,
+    "sol": 1392198.583992475,
+    "pctSol": 18.77379674564165,
+    "pctSolOfVariant": 18.77379674564165,
+    "median": -19.560905651052135
+   },
+   {
+    "label": "101-500",
+    "hands": 14474,
+    "pctHands": 1.2812682023472508,
+    "positions": 2813182,
+    "pctPositions": 24.739843908983666,
+    "pctPositionsOfVariant": 24.739843908983666,
+    "sol": 1900043.9972021135,
+    "pctSol": 25.622091719813014,
+    "pctSolOfVariant": 25.622091719813014,
+    "median": -13.637257323232324
+   },
+   {
+    "label": "501-2,000",
+    "hands": 1452,
+    "pctHands": 0.12853402168082134,
+    "positions": 1223369,
+    "pctPositions": 10.758620701785182,
+    "pctPositionsOfVariant": 10.758620701785182,
+    "sol": 845329.4758950599,
+    "pctSol": 11.399267278409628,
+    "pctSolOfVariant": 11.399267278409628,
+    "median": -6.786316666666667
+   },
+   {
+    "label": "> 2,000",
+    "hands": 395,
+    "pctHands": 0.03496621113217936,
+    "positions": 2060230,
+    "pctPositions": 18.118190937026263,
+    "pctPositionsOfVariant": 18.118190937026263,
+    "sol": 1633882.883580618,
+    "pctSol": 22.03290932430025,
+    "pctSolOfVariant": 22.03290932430025,
+    "median": -3.7185814832079176
+   }
+  ]
+ },
+ "nongrad": {
+  "hands": 1129662,
+  "positions": 9679744,
+  "sol": 6088795.477734539,
+  "segments": [
+   {
+    "label": "1 position",
+    "hands": 507199,
+    "pctHands": 44.89829701273478,
+    "positions": 368148,
+    "pctPositions": 3.237587918380154,
+    "pctPositionsOfVariant": 3.803282400856882,
+    "sol": 236308.7541433356,
+    "pctSol": 3.1866233528124077,
+    "pctSolOfVariant": 3.881042728524347,
+    "median": -46.39432424242425
+   },
+   {
+    "label": "2-5",
+    "hands": 437462,
+    "pctHands": 38.72503456786189,
+    "positions": 991228,
+    "pctPositions": 8.717113218488553,
+    "pctPositionsOfVariant": 10.24022949367256,
+    "sol": 444292.7884400424,
+    "pctSol": 5.991287882083356,
+    "pctSolOfVariant": 7.296891315609614,
+    "median": -59.60197100492803
+   },
+   {
+    "label": "6-20",
+    "hands": 115276,
+    "pctHands": 10.204468239172424,
+    "positions": 942652,
+    "pctPositions": 8.289923417856105,
+    "pctPositionsOfVariant": 9.738398040278751,
+    "sol": 507458.4121591828,
+    "pctSol": 6.84307626532828,
+    "pctSolOfVariant": 8.334298861159862,
+    "median": -26.668586124579125
+   },
+   {
+    "label": "21-100",
+    "hands": 53404,
+    "pctHands": 4.72743174507065,
+    "positions": 1939087,
+    "pctPositions": 17.05282832960662,
+    "pctPositionsOfVariant": 20.032420278883407,
+    "sol": 1116328.547097864,
+    "pctSol": 15.053689527877033,
+    "pctSolOfVariant": 18.334144268436113,
+    "median": -18.251132323232323
+   },
+   {
+    "label": "101-500",
+    "hands": 14474,
+    "pctHands": 1.2812682023472508,
+    "positions": 2426054,
+    "pctPositions": 21.335341003449283,
+    "pctPositionsOfVariant": 25.063204150853576,
+    "sol": 1614504.643663777,
+    "pctSol": 21.771593775160873,
+    "pctSolOfVariant": 26.51599400189554,
+    "median": -13.35287631806633
+   },
+   {
+    "label": "501-2,000",
+    "hands": 1452,
+    "pctHands": 0.12853402168082134,
+    "positions": 1098589,
+    "pctPositions": 9.661273383708007,
+    "pctPositionsOfVariant": 11.349360065720747,
+    "sol": 736793.051637065,
+    "pctSol": 9.93565368768546,
+    "pctSolOfVariant": 12.10080145295345,
+    "median": -6.9195400000000005
+   },
+   {
+    "label": "> 2,000",
+    "hands": 395,
+    "pctHands": 0.03496621113217936,
+    "positions": 1913986,
+    "pctPositions": 16.832083698807974,
+    "pctPositionsOfVariant": 19.773105569734074,
+    "sol": 1433109.2805932723,
+    "pctSol": 19.325477455230807,
+    "pctSolOfVariant": 23.53682737142109,
+    "median": -3.9532032589121426
+   }
+  ]
+ },
+ "script_profile": {
+  "definition": "> 100 positions and active on >= 10 of the days, all tokens",
+  "hands": 10819,
+  "pctHands": 0.9577200968077177
+ }
+}
