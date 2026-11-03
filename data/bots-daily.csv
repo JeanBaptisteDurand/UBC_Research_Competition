@@ -1,0 +1,25 @@
+date,births_robinhood_1526o,births_arc,pnl_arc_usd,pnl_robinhood_usd,median_pool_life_s,pct_my_buys_drained,"event (French, as logged)",source
+2026-09-20,,,,,,,,
+2026-09-21,,,,,,,"Flux Pons réparé 18:08 ; bot en marche à blanc ; argent réel à l'arrêt depuis le 16/09 ; capital 0,047 ETH",bot journals / lab reports (unpublished; aggregated here)
+2026-09-22,,,,,,,"Pons V2 papier -0,111 mETH/trade ; indicateur ROUGE",bot journals / lab reports (unpublished; aggregated here)
+2026-09-23,,,,,,,"Pons V2 papier -0,103 mETH/trade",bot journals / lab reports (unpublished; aggregated here)
+2026-09-24,,,,,,,"Pons V2 papier -0,206 mETH/trade",bot journals / lab reports (unpublished; aggregated here)
+2026-09-25,,,,,,,"Pons V2 papier -0,150 mETH/trade ; capital 0,0303 ETH intact",bot journals / lab reports (unpublished; aggregated here)
+2026-09-26,,,,,,,,
+2026-09-27,,,,,,,"Quatre leviers Pons fermés ; Arc : 94,7 % de vidages des petits achats précoces",bot journals / lab reports (unpublished; aggregated here)
+2026-09-28,,,,,,,Rafale de vidages réactifs 19:18-19:50 (chaîne non précisée),bot journals / lab reports (unpublished; aggregated here)
+2026-09-29,,,,,,,Fin de la subvention de gaz Robinhood,bot journals / lab reports (unpublished; aggregated here)
+2026-09-30,,,,,,,,
+2026-10-01,,,,,,,Robinhood : famille 4655o fermée (piège),bot journals / lab reports (unpublished; aggregated here)
+2026-10-02,,,,,,,"Arc : essai réel double entrée 15:18-17:17, 45 % de pertes",bot journals / lab reports (unpublished; aggregated here)
+2026-10-03,,,"moy. ~52/j (03/10 17:01 -> 06/10 21:50 : +163,89 net, 1591 A/R)",,,,Bot Arc réel démarre 17:01,bot journals / lab reports (unpublished; aggregated here)
+2026-10-04,133 (13-24 h),277 (dès 13:27),moy. ~52/j,"positif (21 h -> 05/10 09 h, non chiffré)","RH 337 (p25 63 / p75 361, 04-06/10)",RH 0 % (0/134),"Robinhood : mur de mise 0,50 -> 0,20-0,30 $",bot journals / lab reports (unpublished; aggregated here)
+2026-10-05,300,492 (canari) ; 243 sur 12-24 h (empreinte),moy. ~52/j ; ~+54/j ; solde bots Arc 363 $,"+7,73 (12-22 h) ; +2,72 (22 h -> 06/10 08 h)",Arc 334 (05/10 21 h -> 06/10 21 h) ; RH 337,"RH 5 % puis 22 % après 22 h ; entrées < 24 s : 73 % ; Arc 0,5 % (5/985)","BSC fermé ; 21-22 h : opérateur RH vide les entrées précoces ; total 510,42 $",bot journals / lab reports (unpublished; aggregated here)
+2026-10-06,274 (jusqu'à 18:44) ; 17 h : 17-18/h ; 19-22 h : 0,461 (canari) ; 528 (empreinte),"nuit 06->07 (23:30-06:10) : +9,35 ; ~36 $ la mauvaise nuit","-1,27 (12:15-13:22) ; +0,24 (15:49-18:15) ; -0,32 (5274o v1)",Arc 334/336 ; RH 337,"RH 63 % (10/16) ; 6/10 (17:15-18:15) ; 4/4 (5274o v1) ; Arc punisseur x7,2",Bot RH 1526o arrêté 13:22 ; 1526o RH cesse de naître 18:44-18:50 ; test 5274o 21:17 ; Arc sortie 201->225 s redémarré 22:29,bot journals / lab reports (unpublished; aggregated here)
+2026-10-07,0,532 ; 236 nés fee 2500 en 11 h (10:40-21:47),"+51,82 (06/10 22:35 -> 07/10 21:40, 518 A/R) ; +33,09 au solde 10:40-21:47 ; 60,1 brut opérateur","+1,54 (06/10 21:27 -> 11:28) ; +2,77 (-> 20:32)",Arc 321 (07-09/10),Arc 0/12 (10:40-11:17) ; RH pertes tot. 14/70,"Redéploiement Arc 10:40, w000/w001 mis de côté, f101/f102 ; total 579,50 $ ; test RH migré the server 20:33 ; 1770o non lancée",bot journals / lab reports (unpublished; aggregated here)
+2026-10-08,,522,"+67,22 (brut hors gaz) ; journal +67,37 ; 67,0 brut opérateur","pic 9,75 $ puis arrêt à ~8,75 $ (départ 7,50)",Arc 347 ; p10 262,"Arc pertes tot. 41/505 = 8,1 %",Bot RH arrêté par coupe-circuit 17:45,bot journals / lab reports (unpublished; aggregated here)
+2026-10-09,"~10,3/h à 15 h = ~247/j (conv.)",520 ; 488 jusqu'à 22:49,"+68,57 ; 69,6 brut","-0,33 (21:57-22:37) ; cumul test +0,58",Arc 338,"RH 45 % (5/11 vidages réactifs) ; Arc pertes tot. 40/500 = 8,0 % ; flotte bénigne 0,4 %","1526o RH renaît ; relance 21:58, arrêt règle 4/6 à 22:37",bot journals / lab reports (unpublished; aggregated here)
+2026-10-10,,351 (jusqu'à 16 h),"+47,77 sur 16,5 h ; ~66 $/j",,Arc 338 ; usine nonce 10 : 316 -> 141 dès 23 h,"Arc pertes tot. 23/336 = 6,8 %",Sortie 225 s confirmée ; 23 h : usine nonce 10 raccourcit son horloge,bot journals / lab reports (unpublished; aggregated here)
+2026-10-11,,2353 pools du 09/10 au 12/10 15 h (agrégat),"~25 $/j ; 10-17 h : -3,27 net ; 12 h -> 19:12 : saine +7,23, malade -7,75",,avec nous 65 vs sans nous 213 (dès 11/10 midi) ; usine malade 141,usine nonce 3 : 80-90 % des mises perdues ; 57 % pertes tot.,Usine réapparaît en nonce 3 à 13 h ; filtre NONCE >= 50 à 19:11,bot journals / lab reports (unpublished; aggregated here)
+2026-10-12,,(idem agrégat),"+13,24 manqués sur 12 h ; -0,40 (2 pools, double entrée)",,avec nous 96 vs sans 332,"6/6 pertes (usine nonce 3, 8 h) ; 2/2 vidés 2 s après le 2e achat ; 88 % morts avant notre vente (n 221)",08:26 filtre remis ; 15:01 famille fermée,bot journals / lab reports (unpublished; aggregated here)
+2026-10-13,,,,,usine saine : 7-16 % tués avant 246 s (12-15/10),,"Arrêt total, places vidées au coffre ; heure ~21:56 = brief (hors sources) ; un tiers applique notre recette : +23 $ net/j",bot journals / lab reports (unpublished; aggregated here)
