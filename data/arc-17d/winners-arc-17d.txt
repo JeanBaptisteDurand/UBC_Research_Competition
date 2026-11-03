@@ -1,0 +1,25 @@
+
+═══ GAGNANTS · arc · 407.6 h (3 fenêtres de 135.9 h, seuil 113.24 $ par fenêtre = 20 $/jour) · 21925 pools jeunes (≥ 1 échanges) · fenêtre de lancement 600 s
+    émetteurs résolus : 1463541/1535534 échanges (95.3 %) · demandés au réseau 40000/101198 manquants · prix natif 0.999944 $ · gaz NON déduit
+    7160 adresses de trading (11680 adresses LP/déployeur écartées) · 508 gagnent (+38097.76 $), 6652 perdent (-46070368.34 $) · décile supérieur : +38094.78 $ (716 adresses)
+    GAGNANTS RÉGULIERS (≥ 20 $/jour au prorata dans ≥ 2 fenêtres sur 3) : 0
+
+    OPÉRATEURS RÉGULIERS (wallets regroupés par signature : contrat appelé, pourboire, mise, âge d'entrée — heuristique) : 0
+      464.57 real        33.72 user         8.89 sys
+          2135965696  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1067111  page reclaims
+                1321  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+               34012  messages sent
+               64311  messages received
+                   0  signals received
+               60342  voluntary context switches
+              240549  involuntary context switches
+        244652144658  instructions retired
+         87099068865  cycles elapsed
+          2329587296  peak memory footprint
