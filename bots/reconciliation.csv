@@ -1,0 +1,10 @@
+Item,Amount,Basis
+"External capital in, floor","$55.66 USDC on Arc, on or before Sep 23 (origin of this first deposit not reconstructed)",bot ledger
+"External capital in, ceiling","+ $10 (Sep 24) + $19.36 (Sep 25–29) + $0.90 (Sep 30) + $33.61 (Robinhood Chain, by Oct 2; bridged from Arc or from the vault, undetermined) + $2.93 (Base) = $122.46",lab notes
+"Balance trajectory (native balances, open positions excluded)",Sep 25 $40.81 → Oct 1 $201.24 → Oct 3 $330.29 → Oct 5 $510.42 → Oct 7 $579.50 → Oct 13 ≈ $804,balance snapshots
+Recovered on Oct 13,"640.77 USDC at the vault (four sweeps below = 629.14 USDC, plus 11.63 USDC from reserve wallets) + 0.042072 ETH (≈ $113 at $2,695/ETH) + 50 USDC converted to 0.176 TAO on Oct 8 (≈ $50) = ≈ $804",on-chain
+"Campaign net, Sep 23 → Oct 13, four chains",$804 − $56 to $122 = +$682 to +$748,computed
+"Journals (one side only), Oct 3–12, Arc","≈ +$424; the balances over the same days went $330 → $804 (+$474): journals under-count by ≈ 10 %, which is why money is read on balances, not journals",journals vs balances
+By chain,not separable exactly: the bridges Arc → Robinhood Chain (Relay) and Arc → BSC (Across) are internal; Arc carried ≈ 90 % of the P&L,—
+September tests on Pons (Robinhood Chain),"≈ −0.26 ETH ≈ −$700 at $2,695/ETH (the September ETH price is not documented)",expense ledger
+"Overall, early September → Oct 13",≈ −$20 to +$50 — about zero,computed
