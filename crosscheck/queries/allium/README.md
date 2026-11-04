@@ -8,6 +8,8 @@ On this table a buy on a curve is a trade whose `token_sold_mint` is wrapped SOL
 |---|---|---|
 | `q0-protocols-one-day.sql` | Solana DEX protocols by number of swaps, to name the launchpads | Oct 6, 2026 |
 | `q1-overlap-daily.sql` | swaps, buys, buyers and signers per day on the pump.fun curve and on LaunchLab, plus distinct buyers over the 16 days | Oct 5–20, 2026 |
+| `q2-nine-months-daily.sql` | swaps, buys, buyers, tokens bought and SOL volume per day on the launchpads and PumpSwap | Feb 1 – Nov 3, 2026 |
+| `q3-pump-concentration.sql` | concentration of PUMP holdings (top 10, 50, 100, 1,000; pump.fun's labelled accounts) | latest balances |
 | `q4-overlap-crowd.sql` | creations, graduations, second buyer, creators' P&L and the crowd median (20–60 s) | Oct 5–20, 2026, with Oct 4 read as look-back |
 | `q4b/c/d-*.sql` | the same query on three earlier fortnights, run only if `q4` falls within the tolerance | Feb 1–16, May 1–16, Aug 1–16, 2026 |
 
