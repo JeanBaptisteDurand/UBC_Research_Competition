@@ -1,7 +1,7 @@
 # I Ran Bots Inside Token Factories. Here Is What They Say About PUMP.
 
 > **SHORT PUMP against SOL · price $0.00474 (Oct 21, 2026) · target $0.0022 (−54 %) by April 28, 2027 · thesis stop: weekly revenue ≥ $16M for four weeks, or active buyers back above 155,000 a day on Allium's count, or launchpad fees ≥ $58M a week · catastrophe stop: PUMP/SOL ×2 on a daily close.**
-> A game the crowd loses every day, measured position by position for sixteen days (median −17.4 %, negative on 16/16 days; buyers −16 % in a week on Allium's count, −36 % in four weeks from the late-September peak); a price set on one peak week; a buyback that ends in April 2027 while 6.875B tokens a month unlock to insiders. The paper: [`paper/PUMP-short-draft-2026-10-26.pdf`](paper/PUMP-short-draft-2026-10-26.pdf).
+> A game the crowd loses every day, measured position by position for sixteen days (median −17.4 %, negative on 16/16 days; buyers −16 % in a week on Allium's count, −36 % in four weeks from the late-September peak); a price set on one peak week; a buyback that ends in April 2027 while 6.875B tokens a month unlock to insiders. The paper: [`paper/PUMP-short-draft-2026-11-06.pdf`](paper/PUMP-short-draft-2026-11-06.pdf).
 
 <p align="center"><img src="figures/fig1_pumpfun_16_days.png" width="49%"><img src="figures/fig2_operator_response.png" width="49%"></p>
 
@@ -31,7 +31,7 @@ No API key is needed (Python ≥ 3.9, matplotlib for the figures). `make figures
 | Base revenue Feb–Jun 2026 $398M/yr; multiple 2.62×; target $0.00226 (−54 % from $0.00474) | 398.0 / 2.62× / $0.00226 | `make check` (A8, A17, A18) | `data/raw/llama_pump_revenue.json`, `cg_pump_chart.json`, `cg_pump_coin.json` | A |
 | Revenue −87 % after the first peak, −52 % after the second; peak week $17.9M, last 7 days $14.0M | −86.6 % / −52.0 % / 17.86 / 14.05 | `make check` (A11–A14) | `data/raw/llama_pump_revenue.json` | A |
 | Launchpad fees (16 venues, launchpads only) $6.5M → $85M → $26M; pump.fun share 83 → 10 → 52 % | 6.5 / 85.3 / 25.8; 82.6 / 10.5 / 51.9 % | `make check` (A22–A25) | `data/raw/llama_lp_*_fees.json` | A |
-| Food chain by address (Fig. 4): one-off buyers −46 %, > 2,000 positions −4 % | script published; run by the author on Oct 26 → `results/food_chain_recomputed.json` = the published aggregate | `make foodchain` | needs the per-position files | C |
+| Food chain by address (Fig. 3): one-off buyers −46 %, > 2,000 positions −4 % | script published; run by the author on Oct 26 → `results/food_chain_recomputed.json` = the published aggregate | `make foodchain` | needs the per-position files | C |
 | Pool life 65 s after my buy vs 213 s without (Arc, Oct 11); my buys drained 0 → 22 → 63 % (Robinhood Chain, Oct 4–6) | typed from the bot journals | — | `data/bots-daily.csv`, `bots/` | C (journals) |
 | ≈ $804 recovered, about zero overall; four sweeps to one vault | on-chain | — | `bots/sweeps.md`, `bots/reconciliation.csv` | A (on-chain) |
 
