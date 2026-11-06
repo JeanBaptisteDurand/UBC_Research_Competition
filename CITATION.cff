@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite the paper."
+title: "I Ran Bots Inside Token Factories. Here Is What They Say About PUMP."
+authors:
+  - family-names: Durand
+    given-names: Jean-Baptiste
+date-released: 2026-11-09
+version: "submission-2026-11-09"
+abstract: "Data, code and figures behind a short thesis on PUMP (pump.fun) for the Franklin Crypto Research Competition, UBC 2026: a 16-day collector run on pump.fun (Oct 5-20, 2026), a 17-day run on Arc factory pools, bot campaign reconciliation, and the public API responses used for valuation."
+license: MIT
