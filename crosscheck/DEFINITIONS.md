@@ -24,3 +24,4 @@
 3. No measure is inferred from another (buyers are never derived from fees).
 4. Known reasons for differences, to be quantified: signer vs. token-account definitions of a buyer, bundled transactions, failed transactions, the "mayhem" family, tokens that migrate within the day, coverage gaps of either pipeline (Kamat 2026).
 5. The second pipeline's series over nine months, once calibrated, goes to `live/` and to `docs/pumpfun/` as a generated document, with the queries.
+6. Publication (added on November 6, 2026, after the runs; it changes no definition and no tolerance): Allium's academic terms allow charts, tables and findings to be published with the credit "Source: Allium" and a link to allium.so. Only aggregates leave the Explorer: no row per address. Calibration failed on most measures (`results/allium/README.md`), so under rule 2 the nine-month series sits in `results/allium/` as "second pipeline, not calibrated", not in `live/`.
