@@ -126,7 +126,7 @@ From `crowd_20-60s.csv.gz` (one row per position, no address) and `results/robus
 | 10-19 | 67,952 | 35,621 | -25.3 % | -19.4 % | -13.2 % | -11.9 % | -24.7 % | 21.7 % | 20.9 % | 74.9 % |
 | 10-20 | 73,099 | 36,500 | -25.6 % | -21.0 % | -14.5 % | -13.5 % | -20.4 % | 21.4 % | 18.4 % | 77.7 % |
 
-Pooled over 16 days (1,691,317 positions): strict median -17.4 %, valued -15.4 %, excluding never-sold -12.2 %, closed only -11.6 %; never-sold share 11.2 %. Every variant is negative on each of the 16 days. The daily never-sold share tracks the strict median (r = −0.89) but not the median of the remaining positions (r = −0.50); the follow-up horizon is identical every day, so the higher never-sold share of Oct 19–20 is tokens that stopped trading, not censoring.
+Pooled over 16 days (1,691,317 positions): strict median -17.4 %, valued -15.4 %, excluding never-sold -12.2 %, closed only -11.6 %; never-sold share 11.2 %. Every variant is negative on each of the 16 days. The daily never-sold share tracks the strict median (r = −0.89) but not the median of the remaining positions (r = −0.50); the follow-up horizon is identical every day, so the higher never-sold share of Oct 19–20 is not censoring; but Oct 19–20 are also the days the collector saw least of the flow (Allium cross-check, `crosscheck/results/allium/README.md`), so missed sales may explain part of it; on Oct 5–14, the better-covered days, the daily medians average −17 %.
 
 ## 5. Hour by hour: 384 hours
 

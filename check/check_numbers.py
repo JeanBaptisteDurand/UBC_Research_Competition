@@ -60,7 +60,7 @@ try:
     add('A22', 'Launchpad pie (launchpads only, 16 venues), week of Jun 1 = $6.5M', 6.5, pie(dt.date(2026, 6, 1)), 'A', 0.05)
     add('A23', 'Pie, week of Sep 7 = $85M', 85.3, pie(dt.date(2026, 9, 7)), 'A', 0.03)
     add('A24', 'Pie, week of Oct 12 = $26M (-70 % from peak)', 25.8, pie(dt.date(2026, 10, 12)), 'A', 0.03)
-    add('A25', 'pump.fun launchpad share Jun 1 / Sep 7 / Oct 12 = 83 / 10 / 52 %', 83, share(dt.date(2026, 6, 1)), 'A', 0.02); add('A25b', '... Sep 7 = 10 %', 10.5, share(dt.date(2026, 9, 7)), 'A', 0.05); add('A25c', '... Oct 12 = 52 %', 52, share(dt.date(2026, 10, 12)), 'A', 0.02)
+    add('A25', 'pump.fun launchpad share Jun 1 / Sep 7 / Oct 12 = 83 / 10 / 52 % (DefiLlama split; dropped from the paper on Nov 6, see crosscheck/)', 83, share(dt.date(2026, 6, 1)), 'A', 0.02); add('A25b', '... Sep 7 = 10 %', 10.5, share(dt.date(2026, 9, 7)), 'A', 0.05); add('A25c', '... Oct 12 = 52 %', 52, share(dt.date(2026, 10, 12)), 'A', 0.02)
     bd = load('llama_pump_fees.json')['totalDataChartBreakdown']; w1 = collections.defaultdict(float); w2 = collections.defaultdict(float)
     for t, d in bd:
         day = dt.datetime.fromtimestamp(t, dt.timezone.utc).date()
@@ -93,7 +93,7 @@ try:
     add('B10', 'Graduations Oct 6 -> Oct 20 = 837 -> 359 (-57 %)', -57, 100 * (grad['2026-10-20'] / grad['2026-10-06'] - 1), 'B', 0.03)
     ll = {d: j['verificationsLaunchLab']['echanges'] for d, j in J.items()}
     w1 = statistics.mean(ll[d] for d in ll if '2026-10-06' <= d <= '2026-10-12'); w2 = statistics.mean(ll[d] for d in ll if '2026-10-13' <= d <= '2026-10-19')
-    add('B11', 'LaunchLab swaps/day -71 % week on week (same-chain control)', -71, 100 * (w2 / w1 - 1), 'B', 0.02)
+    add('B11', 'LaunchLab swaps/day -71 % week on week (collector; Allium -54 %, appendix only)', -71, 100 * (w2 / w1 - 1), 'B', 0.02)
 except Exception as e: rows.append(('B', 'collector block failed', None, repr(e)[:80], 'B', 'ERR'))
 try:
     s_all = []; v_all = []; s_sold = []; paid = 0.0; pw = 0.0; never = 0; n = 0
@@ -114,14 +114,14 @@ try:
     with gzip.open(os.path.join(S, 'active_buyers_by_day_ids.csv.gz'), 'rt') as f:
         for r in csv.DictReader(f): act[r['day']] += 1
     w1 = statistics.mean(act[d] for d in act if '2026-10-06' <= d <= '2026-10-12'); w2 = statistics.mean(act[d] for d in act if '2026-10-13' <= d <= '2026-10-19')
-    add('B17', 'Active buyers/day Oct 6-12 = 155,300', 155300, w1, 'B', 0.005); add('B17b', '... Oct 13-19 = 114,481', 114481, w2, 'B', 0.005); add('B18', 'Active buyers -26 % week on week', -26, 100 * (w2 / w1 - 1), 'B', 0.03)
-    add('B19', 'Active buyers Tue Oct 6 -> Tue Oct 20 = -38 %', -38, 100 * (act['2026-10-20'] / act['2026-10-06'] - 1), 'B', 0.03)
+    add('B17', 'Active buyers/day Oct 6-12 = 155,300', 155300, w1, 'B', 0.005); add('B17b', '... Oct 13-19 = 114,481', 114481, w2, 'B', 0.005); add('B18', 'Active buyers -26 % week on week (collector; the body uses the Allium count, -16 %)', -26, 100 * (w2 / w1 - 1), 'B', 0.03)
+    add('B19', 'Active buyers Tue Oct 6 -> Tue Oct 20 = -38 % (collector; not in the paper)', -38, 100 * (act['2026-10-20'] / act['2026-10-06'] - 1), 'B', 0.03)
     ids = set()
     with gzip.open(os.path.join(S, 'active_buyers_by_day_ids.csv.gz'), 'rt') as f:
         for r in csv.DictReader(f): ids.add(r['buyer_id'])
     add('B20', 'Distinct buying addresses over 16 days = 1,129,662', 1129662, len(ids), 'B', 0)
 except Exception as e: rows.append(('B17', 'buyers file block failed', None, repr(e)[:80], 'B', 'ERR'))
-for cid, claim in [('C1', 'Food chain by address (Fig. 4): needs the per-position files -> scripts/food_chain.py (author\'s run: results/food_chain_recomputed.json)'), ('C2', 'Pool life 65 s vs 213 s after my buy (Arc, Oct 11-12): bot journals, aggregated in data/bots-daily.csv'), ('C3', 'Share of my buys drained 0 % -> 22 % -> 63 % (Robinhood Chain, Oct 4-6): bot journals'), ('C4', 'Arc 17 days: 93 % of 7,160 trading addresses end negative (data/arc-17d/winners-arc-17d.json, output of scripts/lab/gagnants.mjs)')]:
+for cid, claim in [('C1', 'Food chain by address (Fig. 3): needs the per-position files -> scripts/food_chain.py (author\'s run: results/food_chain_recomputed.json)'), ('C2', 'Pool life 65 s vs 213 s after my buy (Arc, Oct 11-12): bot journals, aggregated in data/bots-daily.csv'), ('C3', 'Share of my buys drained 0 % -> 22 % -> 63 % (Robinhood Chain, Oct 4-6): bot journals'), ('C4', 'Arc 17 days: 93 % of 7,160 trading addresses end negative (data/arc-17d/winners-arc-17d.json, output of scripts/lab/gagnants.mjs)')]:
     rows.append((cid, claim, None, None, 'C', 'NOT RUN'))
 os.makedirs('results', exist_ok=True)
 with open('results/numbers.csv', 'w', newline='') as f:
