@@ -79,10 +79,10 @@ fig, ax = plt.subplots(figsize=(3.55,2.6))
 ax.plot(wk, [wf.get(w,0)/1e6 for w in wk], color=RED, lw=2, marker='o', ms=2.5, label='pump.fun (Solana)')
 ax.plot(wk, [wp.get(w,0)/1e6 for w in wk], color=BLUE, lw=1.8, marker='s', ms=2.5, label='Pons (Robinhood Chain)')
 ax.plot(wk, [wa.get(w,0)/1e6*10 for w in wk], color=GREEN, lw=1.4, marker='^', ms=2.5, ls='--', label='Argus World (Arc) ×10')
-ax.set_ylabel('Weekly fees ($M; fees, not revenue)', fontsize=7.5); ax.tick_params(labelsize=8); ax.set_ylim(0, 66)
-ax.annotate('Pons peak,\nweek of Aug 31', (date(2026,8,31), wp[date(2026,8,31)]/1e6), xytext=(-7,0), textcoords='offset points', ha='right', va='center', fontsize=7, color=BLUE)
-ax.annotate('pump.fun peak,\n4 weeks later', (date(2026,9,28), wf[date(2026,9,28)]/1e6), xytext=(0,7), textcoords='offset points', ha='center', fontsize=7, color=RED)
-wa_pk = max(wk, key=lambda w: wa.get(w,0)); ax.annotate(f'Argus peak ${wa[wa_pk]/1e6:.1f}M\n(plotted ×10)', (wa_pk, wa[wa_pk]/1e6*10), xytext=(6,-2), textcoords='offset points', ha='left', va='top', fontsize=6.5, color=GREEN)
+ax.set_ylabel('Weekly fees ($M)', fontsize=7.5); ax.tick_params(labelsize=8); ax.set_ylim(0, 66)
+ax.annotate('Pons peak,\nweek of Aug 31', (date(2026,8,31), wp[date(2026,8,31)]/1e6), xytext=(-7,0), textcoords='offset points', ha='right', va='center', fontsize=7, color=INK)
+ax.annotate('pump.fun peak,\n4 weeks later', (date(2026,9,28), wf[date(2026,9,28)]/1e6), xytext=(0,7), textcoords='offset points', ha='center', fontsize=7, color=INK)
+wa_pk = max(wk, key=lambda w: wa.get(w,0)); ax.annotate(f'Argus peak\n${wa[wa_pk]/1e6:.1f}M (×10)', (wa_pk, wa[wa_pk]/1e6*10), xytext=(9,-2), textcoords='offset points', ha='left', va='center', fontsize=6.5, color=INK, linespacing=1.05)  # between the pump.fun and Pons lines (6/11); text in ink, not series colour
 ax.xaxis.set_major_locator(mdates.MonthLocator()); ax.xaxis.set_major_formatter(mdates.DateFormatter('%b'))
 ax.legend(loc='upper center', bbox_to_anchor=(0.5,-0.18), fontsize=7, frameon=False, ncol=2)
 finish(fig, ax, 'Same clock: Pons, then Argus, then pump.fun', 'Source: DefiLlama dailyFees, weeks of Jun 22 – Oct 12, 2026 (week of\nOct 19 partial, excluded). Argus World scaled ×10 for visibility.', 'figD2_same_clock.png', tsize=9.5, ssize=6.8, bottom=0.1)
@@ -106,21 +106,12 @@ for name, vals, col in layers:
     ax.bar(wk, vals, bottom=bottom, width=5.8, color=col, edgecolor='white', linewidth=0.3, label=name)
     bottom = [b+v for b,v in zip(bottom, vals)]
 ax.set_ylabel('Weekly fees, $M')
-ax2 = ax.twinx(); ax2.spines['right'].set_visible(True)
-share = [100*wc.get(w,0)/1e6/t if t else 0 for w,t in zip(wk,bottom)]
-share_p = [100*wf.get(w,0)/1e6/(t - wc.get(w,0)/1e6 + wf.get(w,0)/1e6) if t else 0 for w,t in zip(wk,bottom)]
-ax2.plot(wk, share_p, color=DARK, lw=1.2, ls='--', label='share counting all pump.fun products (%)')
-ax2.plot(wk, share, color=INK, lw=2, marker='o', ms=3, label='pump.fun launchpad share of launchpad fees (%)')
-ax2.set_ylim(0,118); ax2.set_ylabel('pump.fun share (%)')
-ax2.annotate(f'{share[0]:.0f} %', (wk[0], share[0]), xytext=(4,4), textcoords='offset points', fontsize=9, fontweight='bold')
-imin = share.index(min(share)); ax2.annotate(f'{share[imin]:.0f} %', (wk[imin], share[imin]), xytext=(8,6), textcoords='offset points', fontsize=9, fontweight='bold')
-ax2.annotate(f'{share[-1]:.0f} %', (wk[-1], share[-1]), xytext=(-4,7), textcoords='offset points', fontsize=9, fontweight='bold', ha='right')
-ax.annotate(f'peak ${max(bottom):.0f}M/wk', (wk[bottom.index(max(bottom))], max(bottom)), xytext=(7,-2), textcoords='offset points', fontsize=8.5, color=INK, va='center')
+# (6/11) share lines and right axis removed: that share series is contradicted by Blockworks and Allium; the figure shows the size of the pie only.
+ax.annotate(f'peak ${max(bottom):.0f}M/wk', (wk[bottom.index(max(bottom))], max(bottom)), xytext=(12,-2), textcoords='offset points', fontsize=8.5, color=INK, va='center')
 
-ax.xaxis.set_major_formatter(mdates.DateFormatter('%d %b'))
-h1,l1 = ax.get_legend_handles_labels(); h2,l2 = ax2.get_legend_handles_labels()
-ax.legend(h1+h2, l1+l2, loc='upper center', bbox_to_anchor=(0.5,-0.17), fontsize=7.5, frameon=False, ncol=4)
-finish(fig, ax, 'Launchpad fees: −70 % from the peak week, −49 % since pump.fun\'s own', 'Source: DefiLlama dailyFees, 16 launchpads with >$0.3M fees/30d in October (all chains), pump.fun counted as its launchpad only (dashed: share with PumpSwap, Terminal and app); ISO weeks 23–42 of 2026. Universe fixed on October fees (earlier casualties absent). Share = pump.fun / total.', 'figD3_total_pie_share.png', pad=16)
+ax.xaxis.set_major_locator(mdates.MonthLocator()); ax.xaxis.set_major_formatter(mdates.DateFormatter('%b'))
+ax.legend(loc='upper center', bbox_to_anchor=(0.5,-0.13), fontsize=7.5, frameon=False, ncol=4)
+finish(fig, ax, 'Launchpad fees: −70 % from the peak week, −49 % since pump.fun\'s own', 'Source: DefiLlama dailyFees, 16 launchpads with >$0.3M fees/30d in October (all chains), pump.fun counted as its launchpad only;\nISO weeks 23–42 of 2026. Universe fixed on October fees (earlier casualties absent).', 'figD3_total_pie_share.png', pad=10)
 
 # ---------- F7 / Table 1 (version image pour GitHub et les slides ; dans le PDF la table est en HTML, voir vision/layout.py) ----------
 cols = ['Venue (chain)', 'Launches\nper hour', 'Second buyer\n≤ 60 s', 'Crowd median\nP&L', 'Operator pull or sell within\nseconds of an outside buy (× matched control)', 'Inorganic signature']

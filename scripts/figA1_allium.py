@@ -21,15 +21,18 @@ ax.plot(days[6:], [v / 1e3 for v in roll], color=INK, lw=2, label='Allium, 7-day
 cd = sorted(col)
 ax.plot(cd, [col[d] / 1e3 for d in cd], color=RED, lw=2, ls='--', label='my collector, Oct 5-20')
 ax.axhline(155, color=DARK, lw=0.8, ls=':')
-ax.text(D('2026-04-20'), 158, 'stop level in the paper: 155,000 a day for two weeks', fontsize=7, color=DARK, va='bottom')
+ax.text(D('2026-04-08'), 158, 'stop level in the paper: 7-day mean above 155,000 for two weeks', fontsize=7, color=DARK, va='bottom')
 peak = max(range(len(roll)), key=lambda i: roll[i])
 ax.annotate(f'7-day peak {roll[peak]/1e3:.0f}k', (days[6+peak], roll[peak]/1e3), xytext=(-70, 6), textcoords='offset points', fontsize=7.3, color=INK, arrowprops=dict(arrowstyle='-', color=MUTED, lw=0.6))
-ax.annotate(f'{roll[-1]/1e3:.0f}k on Nov 3', (days[-1], roll[-1]/1e3), xytext=(-28, -24), textcoords='offset points', fontsize=7.3, color=INK, arrowprops=dict(arrowstyle='-', color=MUTED, lw=0.6))
+# last full Monday-Sunday week (Oct 26 - Nov 1): the trailing 7-day mean on Nov 1 is exactly that week's mean (121,639)
+wk = D('2026-11-01'); wk_mean = sum(al[wk - dt.timedelta(days=k)] for k in range(7)) / 7
+ax.plot([wk], [wk_mean/1e3], marker='o', ms=3.2, color=INK, zorder=4)
+ax.annotate(f'{wk_mean/1e3:.0f}k, week of Oct 26', (wk, wk_mean/1e3), xytext=(D('2026-10-29'), 33), textcoords='data', ha='right', va='bottom', fontsize=7.3, color=INK, arrowprops=dict(arrowstyle='-', color=INK, lw=0.6, relpos=(1.0, 1.0), shrinkA=0, shrinkB=2))
 ax.set_ylabel('buyers per day (thousands)'); ax.set_ylim(0, 240); ax.grid(axis='y', color=LIGHT, lw=0.6); ax.set_axisbelow(True)
 ax.xaxis.set_major_locator(mdates.MonthLocator()); ax.xaxis.set_major_formatter(mdates.DateFormatter('%b'))
-ax.legend(loc='upper left', bbox_to_anchor=(0.0, 0.93), frameon=False, fontsize=7.3, ncol=3)
-ax.set_title('Active buyers on the pump.fun curve: the October crowd, nine months wide', loc='left', fontsize=10.5, fontweight='bold', color=INK, pad=8)
+ax.legend(loc='lower left', bbox_to_anchor=(0.01, 0.015), frameon=False, fontsize=7.3, ncol=3, columnspacing=1.2, handlelength=1.8, borderaxespad=0)  # under the data: no daily value falls below 60k
+ax.set_title('Buyers peaked the week of Sep 28, then fell four weeks in a row', loc='left', fontsize=10.5, fontweight='bold', color=INK, pad=8)
 fig.text(0.01, 0.01, "Source: Allium (allium.so), solana.dex.trades, protocol 'pumpfun'; a buyer is the signer of a swap that sells SOL. Query q2 in crosscheck/queries/allium/.\n"
          "Collector: docs/pumpfun/03 §10. The two agree within 3-11 % to Oct 14, then the collector loses coverage (crosscheck/results/allium/README.md).", fontsize=6.6, color=MUTED, ha='left')
-fig.subplots_adjust(left=0.08, right=0.99, top=0.86, bottom=0.27)
+fig.subplots_adjust(left=0.08, right=0.975, top=0.86, bottom=0.27)
 fig.savefig('figures/figA1_allium_nine_months.png', dpi=220, bbox_inches='tight'); print('ok figA1_allium_nine_months.png')
