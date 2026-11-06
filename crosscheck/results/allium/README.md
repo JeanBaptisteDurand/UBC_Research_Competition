@@ -29,3 +29,16 @@ Rule 2 applies: the Allium series are shown as "second pipeline, not calibrated"
 
 ## Holdings of PUMP (`q3-pump-concentration.csv`)
 423,446 holders. Top 10 addresses: 59.4 % of all balances. Top 100: 88.2 %. Accounts Solscan labels as pump.fun's (custodian, Squads vaults, livestream allocation): 55.6 %. The 422,446 holders outside the top 1,000 hold 1.3 % together. Solscan on Oct 22 gave 60.3 % and 88.6 % (`data/raw/solscan_pump_holders_2026-10-22.md`).
+
+## Nine months, Feb 1 – Nov 3, 2026 (`q2-nine-months-daily.csv`, second pipeline, not calibrated)
+Run on Nov 5, 2026, 00:09–00:16 UTC (395 s). One row per day and protocol: swaps, buys, buyers, tokens bought, SOL volume. The SOL volume of `pumpswap` is not usable as it stands: a few pools with mispriced amounts dominate it (77 million SOL on Feb 1). Swaps and buyers are.
+
+Active buyers per day on the pump.fun curve, monthly mean:
+
+| Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Oct 21 – Nov 3 |
+|---|---|---|---|---|---|---|---|---|---|
+| 154,126 | 130,924 | 107,979 | 104,416 | 100,870 | 117,127 | 129,242 | 129,895 | 149,431 | 124,081 |
+
+- Weekly means (Monday to Sunday) peak in the week of Sep 28 at 192,000 a day, then fall four weeks in a row: 163,000, 141,000, 136,000, 122,000 (week of Oct 26), −36 % from the peak week. Only three of 39 full weeks average 155,000 or more: Feb 2, Sep 28 and Oct 5.
+- Of 38 week-on-week changes, three are −15.7 % or worse, and none reaches −26 %. The steepest are −16.4 % (week of Mar 16), −16.3 % (Jul 6) and −16.1 % (Sep 7).
+- pump.fun's share of the five Solana launchpads in this table (swaps): 91 % in February, 94 % in April, 86 % in July, 70 % in September, 81 % in October. Its share of buyers stays between 87 % and 92 % every month.
