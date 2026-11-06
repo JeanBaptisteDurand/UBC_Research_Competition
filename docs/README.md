@@ -1,0 +1,19 @@
+# The research behind the paper, as documents
+
+Two kinds of documents, kept apart on purpose.
+
+## `pumpfun/` — the research folder on pump.fun and PUMP
+Index in [`pumpfun/00-README.md`](pumpfun/00-README.md). Generated from the data (`make report`): [`02-public-series-2024-2026.md`](pumpfun/02-public-series-2024-2026.md) (fees, revenue, take rate and product mix since March 2024, week by week in 2026, the launchpad pie), [`03-sixteen-days-tick-level.md`](pumpfun/03-sixteen-days-tick-level.md) (the collector's 16 days, ≈ 7,400 words and 30 tables), [`04-valuation-and-derivatives.md`](pumpfun/04-valuation-and-derivatives.md) (price, supply, the multiple month by month, comparables, target grid, buyback coverage, funding, open interest). Also generated: [`07-coverage-reconciliation.md`](pumpfun/07-coverage-reconciliation.md) (the collector against DefiLlama, day by day) and [`08-data-dictionary.md`](pumpfun/08-data-dictionary.md). Written from the paper and the audit: [`01-method-and-instrument.md`](pumpfun/01-method-and-instrument.md), [`05-arguments-tested-and-rejected-limits.md`](pumpfun/05-arguments-tested-and-rejected-limits.md), [`06-nine-months-plan.md`](pumpfun/06-nine-months-plan.md) (why sixteen days, which public datasets exist, and the plan to reach nine months). The cross-check rules fixed in advance are in [`../crosscheck/DEFINITIONS.md`](../crosscheck/DEFINITIONS.md). Translated from the lab: the Solana exploration sheet, the Meteora DBC / PumpSwap note, the launchpad landscape of October 5, and the author's working notes on PUMP's market data, computed numbers and the 2025 long thesis.
+
+## `arc-robinhood/` — the lab's working documents (French originals, translated)
+Written before the paper, during the bot campaign of September–October 2026, in the author's working language; translated to English with an AI assistant for publication, numbers unchanged; keys, personal paths, the author's wallets (except the public vault) and unrelated projects removed, third-party addresses truncated. Each file says what was removed.
+- [`arc-robinhood/the-mechanism-that-paid-arc-and-robinhood.md`](arc-robinhood/the-mechanism-that-paid-arc-and-robinhood.md) — the one-page summary: factories, the recipe, the live results.
+- [`arc-robinhood/2026-09-11-signal-selection-method-and-verdict.md`](arc-robinhood/2026-09-11-signal-selection-method-and-verdict.md) — how signals were selected and judged (the pre-registration logic).
+- [`arc-robinhood/2026-09-15-the-september-9-break.md`](arc-robinhood/2026-09-15-the-september-9-break.md) — the day the first strategy broke, and the verdict.
+- [`arc-robinhood/2026-09-complete-dossier-operation-infrastructure-angles-traps.md`](arc-robinhood/2026-09-complete-dossier-operation-infrastructure-angles-traps.md) — the operation end to end: infrastructure, angles, traps.
+- [`arc-robinhood/can-we-win.md`](arc-robinhood/can-we-win.md) — the short honest answer, written before the campaign.
+- [`arc-robinhood/2026-10-10-method-audit-why-only-arc.md`](arc-robinhood/2026-10-10-method-audit-why-only-arc.md) — the method audit of Oct 10–11: why only Arc paid, and the list of optimism errors.
+- `arc-robinhood/arc/` — the Arc campaign, report by report: the pool families and the operators' rules (Oct 6), the exit timing (Oct 10), and the rules written before measuring on Oct 11 (adaptive exit per factory, the sick factory, the "nonce 10" factory, the new configuration, the double entry on the healthy factory).
+- `arc-robinhood/robinhood/` — Robinhood Chain and Pons V2: the 1770-byte family, why the bot was being drained from Oct 5, the watch of Oct 6–7, the Pons V2 research note and the consolidated results of Sep 21–27.
+
+What these documents are not: they are not the paper, they were not written for the competition, and they contain the dead ends. The numbers the paper uses are in `NUMBERS.md` with their command.
