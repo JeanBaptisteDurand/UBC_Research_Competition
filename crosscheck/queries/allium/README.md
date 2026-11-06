@@ -14,3 +14,14 @@ On this table a buy on a curve is a trade whose `token_sold_mint` is wrapped SOL
 | `q4b/c/d-*.sql` | the same query on three earlier fortnights, run only if `q4` falls within the tolerance | Feb 1–16, May 1–16, Aug 1–16, 2026 |
 
 The results are published as aggregates only, under "Source: Allium" (https://allium.so), as Allium's academic terms ask. No row per address leaves the Explorer.
+
+## Public links (shared on November 6, 2026; SQL visible, last run shown)
+| query | link |
+|---|---|
+| q1 · buyers per day, curve and LaunchLab, Oct 5–20 | https://app.allium.so/s/OTno0JfpQFp077eJY5YTJg |
+| q1b · programs carrying the curve swaps, Oct 5–20 | https://app.allium.so/s/XaiMvOaNZ7iDnTkM-DpzHA |
+| q2 · daily activity on the launchpads and PumpSwap, Feb 1 – Nov 3 | https://app.allium.so/s/zliyTYXOn1IcA3NJ57Tz1w |
+| q3 · concentration of PUMP holdings | https://app.allium.so/s/uB82BHSqTK_TlLxwy1CNAw |
+| q4 · crowd median, creations, graduations, Oct 5–20 | https://app.allium.so/s/QzEkzrtdR7w5SeVC612_HQ |
+
+q1, q1b and q3 were run again on November 6 to attach a result to the link. q1 and q1b gave the same numbers as on November 5. q3 reads the latest balances, so it moves a little: second row of `../../results/allium/q3-pump-concentration.csv`.
