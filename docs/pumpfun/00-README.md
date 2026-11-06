@@ -12,7 +12,7 @@ Everything the paper says about pump.fun and PUMP, at full depth, in one place. 
 | [`06-nine-months-plan.md`](06-nine-months-plan.md) | why the collector has 16 days and not nine months, which public sources exist (with sizes and dates), and the plan to carry each measure over nine months, source by source | written from the audit of October 26 |
 | [`07-coverage-reconciliation.md`](07-coverage-reconciliation.md) | the collector's volume against DefiLlama's fees, day by day, and the share of each launch family | generated |
 | [`08-data-dictionary.md`](08-data-dictionary.md) | every key of the daily JSON and every column of the published CSV files, in English | generated |
-| [`../../crosscheck/DEFINITIONS.md`](../../crosscheck/DEFINITIONS.md) | the definitions and tolerances fixed before the Allium cross-check of October 29 | written |
+| [`../../crosscheck/DEFINITIONS.md`](../../crosscheck/DEFINITIONS.md) | the definitions and tolerances fixed before the Allium cross-check; queries, results and verdicts in [`../../crosscheck/results/allium/`](../../crosscheck/results/allium/README.md) | done (Nov 5–6) |
 | `lab-2026-10-solana-exploration-sheet-pumpfun-launchlab.md` | the lab's exploration sheet for Solana (pump.fun, Raydium LaunchLab), written before the 16-day run | translated from the French original |
 | `lab-2026-10-meteora-dbc-and-just-graduated-pumpswap.md` | the lab's note on Meteora's dynamic bonding curve and on "just graduated" tokens on PumpSwap | translated |
 | `lab-2026-10-05-launchpad-landscape.md` | the landscape of launchpads on October 5, 2026, across chains | translated |
