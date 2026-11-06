@@ -2,7 +2,7 @@
 # F11 — rétention à 7 jours des cohortes de nouveaux entrants (annexe B).
 # Lit data/pumpfun-16d/aggregate-pumpfun.json (sortie de data/pumpfun-16d/agreger.py). Lancer depuis research-competition/ :
 #   .venv/bin/python figures/fig10.py
-import json, pathlib
+import csv, json, pathlib
 from datetime import date
 import matplotlib; matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -13,6 +13,9 @@ P = A['parJour']; n = len(P)
 jours = [date.fromisoformat(o['jour']) for o in P]; lab = [d.strftime('%d') for d in jours]
 med = [100*o['med2060'] for o in P]; lan = [o['parHeure'] for o in P]
 act = [A['adresses']['activesParJour'][o['jour']] for o in P]
+# second pipeline: Allium's count of the same days (crosscheck/results/allium/q1-overlap-daily.csv)
+AL = {r['day']: int(r['buyers']) for r in csv.DictReader(open('crosscheck/results/allium/q1-overlap-daily.csv')) if r['protocol'] == 'pumpfun' and r['day'][:4] == '2026'}
+al = [AL[o['jour']]/1000 for o in P]
 fig, (ax, bx) = plt.subplots(2, 1, figsize=(7.2, 1.74), sharex=True, gridspec_kw={'height_ratios': [1.2, 1], 'hspace': 0.12})
 x = list(range(n))
 ax.bar(x, med, color=RED, width=0.72, label='median P&L, buyers entering 20–60 s after launch (%)')
@@ -25,16 +28,15 @@ ax2.set_ylabel('Launches / h', fontsize=8.5); ax2.set_ylim(0, max(lan)*1.3); ax2
 h1,l1 = ax.get_legend_handles_labels(); h2,l2 = ax2.get_legend_handles_labels()
 ax.legend(h1+h2, l1+l2, loc='lower center', bbox_to_anchor=(0.5, 1.0), fontsize=7.8, frameon=False, ncol=3, columnspacing=0.9, handlelength=1.3, handletextpad=0.5)
 ak = [a/1000 for a in act]
-bx.bar(x, ak, color=LIGHT, edgecolor=GREY, width=0.72)
-w1 = sum(ak[1:8])/7; w2 = sum(ak[8:15])/7            # Oct 6–12 et Oct 13–19 (lundi → dimanche)
-top = max(ak)
-bx.hlines(w1, 0.6, 7.4, color=INK, lw=1.3); bx.hlines(w2, 7.6, 14.4, color=INK, lw=1.3)
-bx.text(-0.4, top+10, f'Oct 6–12: {w1:.0f}k buyers a day', ha='left', fontsize=8, color=INK, fontweight='bold')
-bx.text(15.4, top+10, f'Oct 13–19: {w2:.0f}k a day, −{100*(1-w2/w1):.0f} % w/w', ha='right', fontsize=8, color=INK, fontweight='bold')
+bx.bar(x, ak, color=LIGHT, edgecolor=GREY, width=0.72, label='my collector')
+bx.plot(x, al, color=INK, lw=1.4, marker='o', ms=2.8, label='Allium (ref. 19)')
+w1 = sum(al[1:8])/7; w2 = sum(al[8:15])/7            # Oct 6–12 et Oct 13–19, compte Allium
+top = max(max(ak), max(al))
+bx.text(-0.4, top+22, f'Line, Allium: {w1:.0f}k → {w2:.0f}k a day (Oct 6–12 → 13–19), −{100*(1-w2/w1):.0f} % w/w. Bars: my collector.', ha='left', fontsize=7.6, color=INK, fontweight='bold')
 bx.set_ylabel('Active\nbuyers, k', fontsize=8.5, labelpad=4); bx.set_xticks(x); bx.set_xticklabels(lab); bx.set_xlabel('October 2026 (UTC days)')
-bx.set_ylim(0, top*1.5)
+bx.set_ylim(0, top*1.65)
 ax.set_title(f"{n} days, {A['foule2060']['joursNegatifs']} negative medians — and the crowd thins", loc='left', fontsize=10.5, fontweight='bold', color=INK, pad=24)
-fig.text(0.01, 0.005, f"Source: author's Solana collector, pump.fun/SOL, {A['fenetre']['debut']} → {A['fenetre']['fin']} ({A['fenetre']['heures']} h), {A['foule2060']['positions']:,} positions, non-graduated;\n{A['couverture']['minutesSansSource']} min uncovered; curve fees included, unsold = 0; lines = 7-day means.", fontsize=7.2, color=MUTED, ha='left', va='bottom')
+fig.text(0.01, 0.005, f"Source: author's Solana collector, pump.fun/SOL, {A['fenetre']['debut']} → {A['fenetre']['fin']} ({A['fenetre']['heures']} h), {A['foule2060']['positions']:,} positions, non-graduated;\n{A['couverture']['minutesSansSource']} min uncovered; curve fees included, unsold = 0. Line: Allium's count of the same days; the collector matches it to Oct 14, then misses a growing share (Appendix A).", fontsize=7.2, color=MUTED, ha='left', va='bottom')
 fig.subplots_adjust(left=0.085, right=0.89, top=0.85, bottom=0.33, hspace=0.22); fig.savefig(F/'fig1_pumpfun_16_days.png', dpi=220, bbox_inches='tight'); plt.close(fig); print('ok fig1_pumpfun_16_days.png', round(w1), round(w2))
 
 # ---- F11 (annexe B) : rétention des cohortes de nouveaux entrants ----
