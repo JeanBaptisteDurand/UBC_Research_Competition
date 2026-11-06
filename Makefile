@@ -3,7 +3,7 @@ PY ?= python3
 check:        ## recompute the paper's numbers from this repository -> results/numbers.{csv,md}
 	$(PY) check/check_numbers.py
 figures:      ## redraw the paper's figures into figures/
-	$(PY) scripts/figures.py && $(PY) scripts/fig2.py && $(PY) scripts/fig10.py && $(PY) scripts/fig12.py && $(PY) scripts/fig13.py && $(PY) scripts/fig14.py
+	$(PY) scripts/figures.py && $(PY) scripts/fig2.py && $(PY) scripts/fig10.py && $(PY) scripts/fig12.py && $(PY) scripts/fig13.py && $(PY) scripts/fig14.py && $(PY) scripts/figA1_allium.py
 launchlab:    ## same-chain control (LaunchLab swaps per day)
 	$(PY) scripts/launchlab_control.py data/pumpfun-16d
 robustness:   ## status C: needs data/pumpfun-16d/*.positions.jsonl (on request)
