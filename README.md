@@ -1,7 +1,7 @@
 # I Ran Bots Inside Token Factories. Here Is What They Say About PUMP.
 
 > **SHORT PUMP against SOL · price $0.00474 (Oct 21, 2026) · target $0.0022 (−54 %) by April 28, 2027 · thesis stop: weekly revenue ≥ $16M for four weeks, or active buyers back above 155,000 a day on Allium's count, or launchpad fees ≥ $58M a week · catastrophe stop: PUMP/SOL ×2 on a daily close.**
-> A game the crowd loses every day, measured position by position for sixteen days (median −17.4 %, negative on 16/16 days; buyers −16 % in a week on Allium's count, −36 % in four weeks from the late-September peak); a price set on one peak week; a buyback that ends in April 2027 while 6.875B tokens a month unlock to insiders. The paper: [`paper/PUMP-short-draft-2026-11-06.pdf`](paper/PUMP-short-draft-2026-11-06.pdf).
+> A game the crowd loses every day, measured position by position for sixteen days (median −17.4 %, negative on 16/16 days) and, on Allium's count, in three earlier fortnights too (February −15.0 %, May −12.2 %, August −13.6 %); buyers −16 % in a week and −36 % in four weeks from the late-September peak; a price set on one peak week; a buyback that ends in April 2027 while 6.875B tokens a month unlock to insiders. The paper: [`paper/PUMP-short-2026-11-10.pdf`](paper/PUMP-short-2026-11-10.pdf).
 
 <p align="center"><img src="figures/fig1_pumpfun_16_days.png" width="49%"><img src="figures/fig2_operator_response.png" width="49%"></p>
 

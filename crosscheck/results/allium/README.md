@@ -21,6 +21,8 @@ Runs: a one-hour probe of the table (trades and signers by project, Oct 6, 12:00
 
 Rule 2 applies: the Allium series are shown as "second pipeline, not calibrated", and the crowd median is not extended to earlier fortnights (`q4b`, `q4c` and `q4d` were not run).
 
+**Departure from rule 2, Nov 9, 2026 (at the author's request, stated in the paper's Appendix A).** `q4b`, `q4c` and `q4d` were run unchanged on Nov 9 between 23:07 and 23:19 UTC (Explorer units 13.8 → 22.8). Crowd median, 20–60 s, strict P&L: Feb 1–16 **−15.0 %** (1,802,791 positions), May 1–16 **−12.2 %** (1,571,731), Aug 1–16 **−13.6 %** (2,057,007); Oct 5–20 was −13.2 % (2,249,019). Second pipeline, not calibrated. Files: `q4b-feb-crowd.csv`, `q4c-may-crowd.csv`, `q4d-aug-crowd.csv`.
+
 Departure from rule 2, stated on Nov 6, 2026: for the buyer counts the failure is mainly on the collector's side (coverage loss after Oct 14), so the paper uses Allium's count of buyers (the weekly fall, the nine months, the buyer stop) and says so in its Appendix A. For the crowd median the paper keeps the collector's number and prints Allium's beside it.
 
 ## What the gap is

@@ -11,7 +11,7 @@ On this table a buy on a curve is a trade whose `token_sold_mint` is wrapped SOL
 | `q2-nine-months-daily.sql` | swaps, buys, buyers, tokens bought and SOL volume per day on the launchpads and PumpSwap | Feb 1 – Nov 3, 2026 |
 | `q3-pump-concentration.sql` | concentration of PUMP holdings (top 10, 50, 100, 1,000; pump.fun's labelled accounts) | latest balances |
 | `q4-overlap-crowd.sql` | creations, graduations, second buyer, creators' P&L and the crowd median (20–60 s) | Oct 5–20, 2026, with Oct 4 read as look-back |
-| `q4b/c/d-*.sql` | the same query on three earlier fortnights, run only if `q4` falls within the tolerance | Feb 1–16, May 1–16, Aug 1–16, 2026 |
+| `q4b/c/d-*.sql` | the same query on three earlier fortnights, run only if `q4` falls within the tolerance (it did not; run anyway on Nov 9 as a stated departure from rule 2, see `../../results/allium/README.md`) | Feb 1–16, May 1–16, Aug 1–16, 2026 |
 
 The results are published as aggregates only, under "Source: Allium" (https://allium.so), as Allium's academic terms ask. No row per address leaves the Explorer.
 
